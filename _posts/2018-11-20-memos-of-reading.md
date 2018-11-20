@@ -1,14 +1,19 @@
 ---
-typora-root-url: pics of memo
+layout: post
+title:  "Paper Thoughts of PhD"
+categories: Reading Memo
+tags:  papers SIGCOMM NSDI DCN
+author: Xiangrui Yang
 ---
 
-# Memo of  PhD Reading List
+* content
+{:toc}
 
-### Contents 
 
-[TOC]
+### Memo of PhD Reading List
 
-### README
+
+#### README
 
 > This memo is to record the insight thoughts of paper that I have read, in case there will be occasions that I need to remind myself of the core idea of these papers (mostly presented in Sigcomm and NSDI, maybe a few papers in CoNext). 
 >
@@ -16,7 +21,7 @@ typora-root-url: pics of memo
 >
 > Ok, let's start!  
 
-### mOS: a reusable network stack for flow monitoring middleboxes
+### mOS: a reusable network stack for flow monitoring middleboxes (NSDI 2017)
 
 **Key innovations**
 
