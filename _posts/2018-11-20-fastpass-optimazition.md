@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FastPass, 集中式数据中心流调度"
-categories: Data Center
+categories: Data_Center
 tags:  Data_Center 流调度 
 author: Xiangrui Yang
 ---
