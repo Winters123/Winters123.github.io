@@ -1,5 +1,13 @@
+---
+layout: post
+title:  "Netmap Learning Notes"
+categories: QUIC acceleration
+tags:  QUIC acceleration kernel-bypass 
+author: Xiangrui Yang
+---
 
-
+* content
+{:toc}
 ### Netmap
 
 #### Kernel:
@@ -50,7 +58,7 @@
 
    > kinda similar (well.. should be opposite to the process in **RX**) to **RX**.
 
-#### Data Structures
+#### Data Structures:
 
 
 
