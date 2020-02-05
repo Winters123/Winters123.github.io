@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Netmap Learning Notes"
-categories: QUIC acceleration
-tags:  QUIC acceleration kernel-bypass 
+categories: QUIC_acceleration
+tags:  QUIC_acceleration kernel-bypass netmap
 author: Xiangrui Yang
 ---
 
 * content
 {:toc}
-### Netmap
+### Netmap Learning Note
 
 #### Kernel:
 
