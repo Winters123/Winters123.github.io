@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 网络系统组-of-四方坪高职
-brief-intro: Make network better with hw sw co-design!
+title: the PhD journey of Xiangrui
+brief-intro: a place to record anything that worth recoding
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Winters123.github.io" # the base hostname & protocol for your site
 
@@ -20,10 +20,10 @@ github_username:  Winters123
 email: nudtyxr@hotmail.com
 weibo_username: none
 zhihu_username: none
-linkedIn_username: gaohaoyang
+linkedIn_username: #gaohaoyang
 dribbble_username:
 
-description_footer: Network System Group of NUDT
+description_footer: 
 
 # comments
 # two ways to comment, only choose one, and use your own short name
