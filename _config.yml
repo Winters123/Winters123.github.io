@@ -7,7 +7,7 @@
 
 # Site settings
 title: the PhD journey of Xiangrui
-brief-intro: a place to record anything that worth recoding
+brief-intro: a place to radomly record anything that worth recoding
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Winters123.github.io" # the base hostname & protocol for your site
 
@@ -19,7 +19,7 @@ facebook_username: #gaohaoyang.water
 github_username:  Winters123
 email: nudtyxr@hotmail.com
 weibo_username: none
-zhihu_username: none
+zhihu_username: yers bay
 linkedIn_username: #gaohaoyang
 dribbble_username:
 
@@ -28,8 +28,8 @@ description_footer:
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: hygblog
-disqus_shortname: #gaohaoyang
+duoshuo_shortname: #hygblog
+disqus_shortname: Winters
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
