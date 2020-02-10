@@ -32,6 +32,14 @@ author: Xiangrui Yang
    >
    > When the driver noticed that, it will free the `skb`.
 
+
+
+
+
+
+
+
+
 #### Netmap:
 
 ​	During the initialization, the `netmap ring` and `netmap buffers` are **pre-allocated**. And each `ring slot` pointed to a `netmap buffer`.

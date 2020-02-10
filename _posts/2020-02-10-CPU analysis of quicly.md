@@ -6,17 +6,15 @@ tags:  QUIC_acceleration quic_measurement
 author: Xiangrui Yang
 ---
 
-* content
-{:toc}
 
-
-###12-06: CPU usage analysis of `quicly`
-
+##12-06: CPU usage analysis of quicly
 
 
 > **Abstract:** This blog is about our initial measurement results of `quicly`. The results give us some insights that **with a QUIC implementation based on UNIX socket, crypto functions only consume very limited CPU resources. And this is because kernel network stack processing cost too much CPU resources.** 
->
 > 
+
+
+
 
 First we lunched 15 instances of QUIC server/client pairs in parallel on two different servers to profile (uisng `perf`) the CPU usage of `quicly`. During the measurement, each server was sending a 100MB data block to the paired client simultaneously. And the following figure is a snapshot from `server side`. Most CPU time is consumed by `__x64_sys_select` and `__select` functions. 
 
