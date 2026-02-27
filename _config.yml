@@ -1,0 +1,96 @@
+title: Xiangrui Yang
+description: Associate Professor at National University of Defense Technology
+author: Xiangrui Yang
+baseurl: ""
+url: "https://Winters123.github.io
+
+repository: Winters123/Winters123.github.io
+
+lang: en
+languages:
+  - en
+  - zh
+
+keywords: networking, programmable networks, TSN, high-performance networks, FPGA
+
+timezone: Asia/Shanghai
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+theme: null
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-scholar
+
+scholar:
+  last_name: Yang
+  first_name: Xiangrui
+  style: apa
+  locale: en
+  source: _bibliography
+  bibliography: papers
+  bibliography_template: bib
+  sort_by: year,month
+  order: descending
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path
+  projects:
+    output: true
+    permalink: /projects/:path
+  teaching:
+    output: true
+    permalink: /teaching/:path
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "teaching"
+    values:
+      layout: "teaching"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - LICENSE
+  - README.md
+
+include:
+  - _pages
+
+sass:
+  style: compressed
+  sourcemap: never

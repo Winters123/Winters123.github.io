@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiangrui Yang - NUDT</title>
+    <meta name="description" content="Xiangrui Yang, Associate Professor at National University of Defense Technology. Research in programmable networks, TSN, and high-performance networking.">
+    <meta name="keywords" content="Xiangrui Yang, NUDT, networking, programmable networks, TSN, FPGA, research">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+        
+        .hero {
+            background: white;
+            padding: 60px 0;
+        }
+        
+        .hero-content {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+        
+        .profile-section {
+            text-align: center;
+        }
+        
+        .profile-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 4rem;
+            color: white;
+        }
+        
+        .profile-info h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #1a1a2e;
+        }
+        
+        .profile-info .title {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        
+        .profile-info .affiliation {
+            color: #888;
+        }
+        
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #f0f0f0;
+            color: #333;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: #1a1a2e;
+            color: white;
+        }
+        
+        .main-content h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #1a1a2e;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .main-content h3 {
+            font-size: 1.2rem;
+            margin: 25px 0 15px;
+            color: #333;
+        }
+        
+        .main-content p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .main-content ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .main-content li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .news-section {
+            background: #f8f9fa;
+            padding: 40px 0;
+        }
+        
+        .news-item {
+            background: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .news-date {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .publications-section {
+            background: white;
+            padding: 40px 0;
+        }
+        
+        .pub-item {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .pub-item:last-child {
+            border-bottom: none;
+        }
+        
+        .pub-title {
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 5px;
+        }
+        
+        .pub-authors {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+        }
+        
+        .pub-venue {
+            color: #667eea;
+            font-style: italic;
+        }
+        
+        .pub-tag {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
+        
+        footer {
+            background: #1a1a2e;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .profile-image {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Xiangrui Yang</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
+                    <li><a href="#cv">CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="about">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-section">
+                    <div class="profile-image">XY</div>
+                    <div class="profile-info">
+                        <h1>Xiangrui Yang (杨翔瑞)</h1>
+                        <p class="title">Associate Professor</p>
+                        <p class="affiliation">National University of Defense Technology</p>
+                        <p class="affiliation">College of Computer</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:18635723769@163.com" title="Email">📧</a>
+                        <a href="https://scholar.google.com/citations?user=YOUR_USER_ID" title="Google Scholar">🎓</a>
+                        <a href="https://github.com/xiangruiyang" title="GitHub">💻</a>
+                    </div>
+                </div>
+                
+                <div class="main-content">
+                    <h2>About Me</h2>
+                    <p>I am an Associate Professor at the College of Computer, National University of Defense Technology (NUDT). I received my Ph.D. in Cyberspace Security from NUDT in 2021, and my B.S. and M.S. degrees in Computer Science from NUDT in 2015 and 2017, respectively. I was a visiting researcher at Queen Mary University of London in 2019-2020.</p>
+                    
+                    <h3>Research Interests</h3>
+                    <ul>
+                        <li><strong>Programmable Data Planes</strong>: High-speed programmable network systems, FPGA-based network processing</li>
+                        <li><strong>Time-Sensitive Networking (TSN)</strong>: Deterministic networking for industrial and automotive applications</li>
+                        <li><strong>Domain-Specific Networking (DSN)</strong>: Customized network architectures for specific application domains</li>
+                        <li><strong>Network Acceleration</strong>: Hardware-software co-design for network processing acceleration</li>
+                    </ul>
+                    
+                    <h3>Highlights</h3>
+                    <ul>
+                        <li><strong>Publications</strong>: 16+ papers in CCF-recommended venues (9 top-tier papers in CCF-A journals/conferences)</li>
+                        <li><strong>Awards</strong>: SIGCOMM 2020 Distinguished Paper Award, 3 international awards</li>
+                        <li><strong>Patents</strong>: 7+ granted national invention patents</li>
+                        <li><strong>Open Source</strong>: Creator of FastRMT - the first open-source FPGA-level RMT architecture implementation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news-section">
+        <div class="container">
+            <h2 style="margin-bottom: 20px; color: #1a1a2e;">News</h2>
+            <div class="news-item">
+                <span class="news-date">[2025.12]</span> Promoted to Associate Professor at NUDT.
+            </div>
+            <div class="news-item">
+                <span class="news-date">[2025.06]</span> Paper "Memory-Efficient Packet Classification at High-Speed" accepted to IWQoS 2025.
+            </div>
+            <div class="news-item">
+                <span class="news-date">[2025.06]</span> Paper "Megabits Down to Kilobits: Memory-Efficient Time-Aware Shaping for TSN" accepted to DAC 2025.
+            </div>
+            <div class="news-item">
+                <span class="news-date">[2024.08]</span> Paper "Magneto: Load-Balanced Key-Value Service" accepted to IEEE TSC (CCF-A).
+            </div>
+            <div class="news-item">
+                <span class="news-date">[2024.02]</span> Paper "FastRMT" published in Journal of Computer Research and Development (CCF-A Chinese Journal).
+            </div>
+        </div>
+    </section>
+
+    <section class="publications-section" id="publications">
+        <div class="container">
+            <h2 style="margin-bottom: 20px; color: #1a1a2e;">Selected Publications</h2>
+            
+            <div class="pub-item">
+                <div class="pub-title">Making QUIC Quicker with NIC Offload <span class="pub-tag">CCF-A</span> <span class="pub-tag">Distinguished Paper</span></div>
+                <div class="pub-authors">Xiangrui Yang, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, Gianni Antichi</div>
+                <div class="pub-venue">ACM SIGCOMM 2020</div>
+            </div>
+            
+            <div class="pub-item">
+                <div class="pub-title">Isolation Mechanisms for High-Speed Packet-Processing Pipelines <span class="pub-tag">CCF-A</span></div>
+                <div class="pub-authors">Tao Wang, Xiangrui Yang, Gianni Antichi, Anirudh Sivaraman, Aurojit Panda</div>
+                <div class="pub-venue">USENIX NSDI 2022</div>
+            </div>
+            
+            <div class="pub-item">
+                <div class="pub-title">FastRMT: A High-Speed Data Plane Programmable System for Microarchitecture Innovation <span class="pub-tag">CCF-A</span></div>
+                <div class="pub-authors">Xiangrui Yang, Lingbin Zeng, Zhongpei Liu, Yingwen Chen, Gaofeng Lv, Cheng Yang, Jinshu Su</div>
+                <div class="pub-venue">Journal of Computer Research and Development, 2024</div>
+            </div>
+            
+            <div class="pub-item">
+                <div class="pub-title">Magneto: Load-Balanced Key-Value Service for Write-Intensive Workloads <span class="pub-tag">CCF-A</span></div>
+                <div class="pub-authors">Yuanhang Gao, Yingwen Chen, Xiangrui Yang*, Huan Zhou, Shihua Tang, Ming Xu</div>
+                <div class="pub-venue">IEEE Transactions on Services Computing, 2025</div>
+            </div>
+            
+            <div class="pub-item">
+                <div class="pub-title">FooDog: Empower TSN for Efficient Policing <span class="pub-tag">CCF-A</span></div>
+                <div class="pub-authors">Xuyan Jiang, Xiangrui Yang*, Wenwen Fu, Wenfei Wu, Wei Quan, Yingwen Chen, Yihao Jiao, Zhigang Sun</div>
+                <div class="pub-venue">IEEE/ACM Transactions on Networking, 2025</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Xiangrui Yang. All rights reserved.</p>
+            <p style="margin-top: 10px; opacity: 0.7;">National University of Defense Technology, Changsha, China</p>
+        </div>
+    </footer>
+</body>
+</html>
