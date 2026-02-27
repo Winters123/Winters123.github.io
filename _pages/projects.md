@@ -22,7 +22,7 @@ FastRMT is the first open-source FPGA-level RMT (Reconfigurable Match-Action Tab
 - Fully programmable pipelines
 - Open source
 
-**Impact:** Adopted by Xilinx OpenNIC, Maipu Smart NIC, and satellite switching chips.
+**Impact:** Adopted by many interesting opensource projects like Menshen (NSDI22).
 
 ---
 
@@ -41,7 +41,7 @@ FlexTSN addresses the conflict between deterministic scheduling and hardware ove
 
 ---
 
-### FAST Framework
+### FAST Framework (IWQoS 2019)
 
 **Hardware-software co-design network acceleration teaching platform**
 

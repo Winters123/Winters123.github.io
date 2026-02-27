@@ -37,14 +37,15 @@ Hands-on course covering:
 
 ### Textbooks (Published)
 
-1. **"Computer Network Experiments and Practice"** - Key Planning Textbook
-2. **"Network System Principles"** - Fourteenth Five-Year Key Planning Textbook
+1. **"Network System Principles"** - Fourteenth Five-Year Key Planning Textbook
 
 ## Student Supervision
 
 ### Graduate Students
-- Yuanfeng Chen (M.S., co-supervised) - Packet classification algorithms
+- Yuanhang Gao (PhD, co-supervised) - In Network Computing
+- Yuanfeng Chen (PhD, co-supervised) - Packet classification algorithms
 - Xuetan Cheng (M.S., co-supervised) - Programmable packet parsing
+
 
 ### Student Achievements
 - **National Competition Grand Prize**: 1 student team
@@ -53,6 +54,5 @@ Hands-on course covering:
 
 ## Teaching Awards
 
-- **Third Prize and above in Provincial Teaching Competitions**: 5 awards
 - **Hunan Province Teaching Achievement Second Prize** (2025)
 - **National A-level Competition Excellent Instructor** (2023-2025, consecutive 3 years)
