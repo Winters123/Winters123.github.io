@@ -2,7 +2,7 @@ title: Xiangrui Yang
 description: Associate Professor at National University of Defense Technology
 author: Xiangrui Yang
 baseurl: ""
-url: "https://winters123.github.io“
+url: "https://winters123.github.io"
 
 repository: Winters123/winters123.github.io
 
@@ -29,18 +29,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-scholar
-
-scholar:
-  last_name: Yang
-  first_name: Xiangrui
-  style: apa
-  locale: en
-  source: _bibliography
-  bibliography: papers
-  bibliography_template: bib
-  sort_by: year,month
-  order: descending
 
 paginate: 5
 paginate_path: "/blog/page:num/"
