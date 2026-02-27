@@ -11,7 +11,9 @@ College of Computer
 National University of Defense Technology  
 Changsha, Hunan, China
 
-**Contact**: 18635723769@163.com
+**Contact**: yangxiangrui11@nudt.edu.cn
+
+**Google Scholar**: [Profile](https://scholar.google.com/citations?hl=en&user=kzbAzGEAAAAJ)
 
 ---
 
@@ -71,7 +73,7 @@ Changsha, Hunan, China
 
 ## Professional Service
 
-- Invited to join QUIC Measurement Working Group
+- Reviewer for journals such as ToN, TC and CN
 - Cited and acknowledged by Google QUIC lead Ian Swett in keynote
 - Standard: T/CESA 1502-2026 High-Throughput Ethernet Interconnection Protocol
 
