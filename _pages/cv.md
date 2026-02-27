@@ -44,7 +44,7 @@ Changsha, Hunan, China
 
 **CCF-A Publications (9 papers)**
 
-1. **Making QUIC Quicker with NIC Offload** - ACM SIGCOMM 2020
+1. **Making QUIC Quicker with NIC Offload** - ACM SIGCOMM EPIQ 2020
 2. **Isolation Mechanisms for High-Speed Packet-Processing Pipelines** - USENIX NSDI 2022
 3. **FastRMT: A High-Speed Data Plane Programmable System** - Journal of Computer Research and Development, 2024
 4. **Magneto: Load-Balanced Key-Value Service** - IEEE TSC, 2025
