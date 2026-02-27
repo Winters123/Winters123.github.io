@@ -7,9 +7,6 @@ url: "https://winters123.github.io"
 repository: Winters123/winters123.github.io
 
 lang: en
-languages:
-  - en
-  - zh
 
 keywords: networking, programmable networks, TSN, high-performance networks, FPGA
 
@@ -20,9 +17,6 @@ highlighter: rouge
 
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
-
-theme: null
 
 plugins:
   - jekyll-feed
@@ -34,11 +28,6 @@ paginate: 5
 paginate_path: "/blog/page:num/"
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path
   projects:
     output: true
     permalink: /projects/:path
@@ -78,7 +67,3 @@ exclude:
 
 include:
   - _pages
-
-sass:
-  style: compressed
-  sourcemap: never
