@@ -4,7 +4,6 @@ description: First open-source FPGA-level RMT architecture implementation
 img: assets/img/project_fastrmt.jpg
 importance: 1
 category: work
-related_publications: true
 ---
 
 **FastRMT** is the first open-source FPGA-level RMT (Reconfigurable Match-Action Table) architecture implementation, supporting 100Gbps line-rate processing with microsecond-level latency.
@@ -24,8 +23,8 @@ related_publications: true
 
 ## Related Publications
 
-{% reference yang2024fastrmt %}
-{% reference wang2022isolation %}
+1. **FastRMT: A High-Speed Data Plane Programmable System for Microarchitecture Innovation** - Journal of Computer Research and Development, 2024
+2. **Isolation Mechanisms for High-Speed Packet-Processing Pipelines** - USENIX NSDI 2022
 
 ## Links
 

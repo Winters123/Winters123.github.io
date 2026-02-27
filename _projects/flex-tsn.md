@@ -4,7 +4,6 @@ description: Flexible TSN switching model with programmable scheduling
 img: assets/img/project_tsn.jpg
 importance: 2
 category: work
-related_publications: true
 ---
 
 **FlexTSN** is a flexible Time-Sensitive Networking (TSN) switching model that addresses the conflict between deterministic scheduling and hardware overhead.
@@ -28,5 +27,5 @@ related_publications: true
 
 ## Related Publications
 
-{% reference jiang2025tas %}
-{% reference jiang2025foodog %}
+1. **Megabits Down to Kilobits: Memory-Efficient Time-Aware Shaping for TSN** - ACM/IEEE DAC 2025
+2. **FooDog: Empower TSN for Efficient Policing** - IEEE/ACM Transactions on Networking, 2025
