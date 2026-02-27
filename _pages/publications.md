@@ -36,7 +36,7 @@ For a complete list of publications, please visit my [Google Scholar](https://sc
 
 ### 2020-2021
 
-11. **Xiangrui Yang**, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, Gianni Antichi. "Making QUIC Quicker with NIC Offload." *ACM SIGCOMM* (CCF-A), 2020: 1-7. **(First Author)** **[Distinguished Paper Award]**
+11. **Xiangrui Yang**, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, Gianni Antichi. "Making QUIC Quicker with NIC Offload." *ACM SIGCOMM* (CCF-A), 2020: 1-7. **(First Author)**
 
 12. Jie Yan, Wei Quan, **Xiangrui Yang**, Wenwen Fu, Xuyan Jiang, Hailong Yang, Zhigang Sun. "TSN-Builder: Enabling Rapid Customization of Resource-Efficient Switches for Time-Sensitive Networking." *ACM/IEEE DAC*, 2020: 1-6.
 

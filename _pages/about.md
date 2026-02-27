@@ -5,7 +5,9 @@ permalink: /about/
 ---
 
 <div class="profile-section">
-    <div class="profile-image">XY</div>
+    <div class="profile-image">
+        <img src="{{ '/assets/img/profile.png' | relative_url }}" alt="Xiangrui Yang" style="width: 200px; height: 200px; border-radius: 10px; object-fit: cover;">
+    </div>
     <div class="profile-info">
         <h1>Xiangrui Yang (杨翔瑞)</h1>
         <p class="title">Associate Professor</p>
@@ -33,10 +35,10 @@ My research focuses on **high-performance and trustworthy networks**, with empha
 ## Highlights
 
 - **Publications**: 16+ papers in CCF-recommended venues (9 top-tier papers in CCF-A journals/conferences)
-- **Awards**: SIGCOMM 2020 Distinguished Paper Award
 - **Patents**: 7+ granted national invention patents
 - **Open Source**: Creator of FastRMT - the first open-source FPGA-level RMT architecture implementation
-- **Teaching**: Published 2 key textbooks, supervised students winning national competition awards
+- **Teaching**: Published 2 key textbooks, 3-time National A-level Competition Excellent Instructor
+- **Awards**: Hunan Province Teaching Achievement Second Prize (2025), Future Network Innovation Competition Grand Prize (2023)
 
 ## News
 

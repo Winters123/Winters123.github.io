@@ -31,7 +31,6 @@ Changsha, Hunan, China
 | Period | Position | Institution |
 |--------|----------|-------------|
 | 2025.12 - Present | Associate Professor | NUDT, College of Computer |
-| 2024.06 - 2025.06 | Assistant Researcher | 61*** Unit, PLA |
 | 2021.12 - 2025.12 | Lecturer | NUDT, College of Computer |
 
 ## Research Interests
@@ -45,7 +44,7 @@ Changsha, Hunan, China
 
 **CCF-A Publications (9 papers)**
 
-1. **Making QUIC Quicker with NIC Offload** - ACM SIGCOMM 2020 (Distinguished Paper Award)
+1. **Making QUIC Quicker with NIC Offload** - ACM SIGCOMM 2020
 2. **Isolation Mechanisms for High-Speed Packet-Processing Pipelines** - USENIX NSDI 2022
 3. **FastRMT: A High-Speed Data Plane Programmable System** - Journal of Computer Research and Development, 2024
 4. **Magneto: Load-Balanced Key-Value Service** - IEEE TSC, 2025
@@ -62,9 +61,8 @@ Changsha, Hunan, China
 
 ## Awards & Honors
 
-- **SIGCOMM 2020 Distinguished Paper Award**
 - **Hunan Province Teaching Achievement Second Prize** (2025)
-- **National A-level Competition Excellent Instructor** (2023-2025)
+- **National A-level Competition Excellent Instructor** (2023-2025, 3 consecutive years)
 - **Future Network Technology Innovation Competition Grand Prize** (2023)
 
 ## Patents
