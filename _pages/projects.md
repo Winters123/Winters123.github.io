@@ -6,11 +6,11 @@ permalink: /projects/
 
 ## Research Projects
 
-Here are the main research projects I have been working on.
+Here are a part of the research projects I have been working on.
 
 ---
 
-### FastRMT - High-Speed Programmable Data Plane
+### [FastRMT - High-Speed Programmable Data Plane](https://github.com/Winters123/fast-rmt)
 
 **First open-source FPGA-level RMT architecture implementation**
 
@@ -22,7 +22,7 @@ FastRMT is the first open-source FPGA-level RMT (Reconfigurable Match-Action Tab
 - Fully programmable pipelines
 - Open source
 
-**Impact:** Adopted by many interesting opensource projects like Menshen (NSDI22).
+**Impact:** Adopted by many interesting opensource projects like [Menshen](https://www.usenix.org/conference/nsdi22/presentation/wang-tao).
 
 ---
 
@@ -37,7 +37,7 @@ FlexTSN addresses the conflict between deterministic scheduling and hardware ove
 - Memory-efficient design
 - IEEE 802.1Qbv compliant
 
-**Impact:** Core architecture integrated into Yinhe Hengxin TSN switching chip.
+**Impact:** Core architecture integrated into Yinhe Hengxin I TSN switching chip.
 
 ---
 

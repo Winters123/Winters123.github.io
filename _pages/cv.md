@@ -41,14 +41,13 @@ Changsha, Hunan, China
 
 ## Selected Publications
 
-**CCF-A Publications (9 papers)**
+1. **Magneto: Load-Balanced Key-Value Service** - IEEE TSC, 2025
+2. **FooDog: Empower TSN for Efficient Policing** - IEEE/ACM ToN, 2025
+3. **Megabits Down to Kilobits: Memory-Efficient TAS for TSN** - DAC 2025
+4. **Isolation Mechanisms for High-Speed Packet-Processing Pipelines** - USENIX NSDI 2022
+5. **FastRMT: A High-Speed Data Plane Programmable System** - Journal of Computer Research and Development, 2024
+6. **Making QUIC Quicker with NIC Offload** - ACM SIGCOMM EPIQ 2020
 
-1. **Making QUIC Quicker with NIC Offload** - ACM SIGCOMM EPIQ 2020
-2. **Isolation Mechanisms for High-Speed Packet-Processing Pipelines** - USENIX NSDI 2022
-3. **FastRMT: A High-Speed Data Plane Programmable System** - Journal of Computer Research and Development, 2024
-4. **Magneto: Load-Balanced Key-Value Service** - IEEE TSC, 2025
-5. **FooDog: Empower TSN for Efficient Policing** - IEEE/ACM ToN, 2025
-6. **Megabits Down to Kilobits: Memory-Efficient TAS for TSN** - DAC 2025
 
 ## Research Projects (Selected)
 

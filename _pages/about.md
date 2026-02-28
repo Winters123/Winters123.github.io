@@ -21,7 +21,7 @@ permalink: /about/
     </div>
 </div>
 
-I am an **Associate Professor** at the College of Computer, [National University of Defense Technology (NUDT)](https://english.nudt.edu.cn/). I received my Ph.D. from NUDT in 2021, and my B.S. and M.S. degrees in Computer Science from NUDT in 2015 and 2017, respectively. I was a visiting PhD student at Queen Mary University of London (happily with [Gianni Antichi](https://www.gianniantichi.com/)) in 2019-2020.
+I am an **Associate Professor** at the College of Computer, [National University of Defense Technology (NUDT)](https://english.nudt.edu.cn/). I received my Ph.D. from NUDT in 2021. I was a visiting PhD student at Queen Mary University of London (happily with [Gianni Antichi](https://gianniantichi.github.io/)) in 2019-2020.
 
 Over the years, most of my time has been devoted to **building systems and networks that solve real-world problems for our partners both in industry and institutions**. I believe that good research should not only push the boundaries of knowledge but also make a tangible impact on the world.
 
@@ -33,7 +33,7 @@ My research focuses on **high-performance and security networks and systems**, w
 
 - **Programmable Data Planes**: High-speed programmable network systems, FPGA-based in-network processing
 - **Time-Sensitive Networking (TSN)**: Deterministic networking for industrial and automotive applications
-- **Domain-Specific Networking (DSN)**: Customized network architectures for specific application domains, AI training networks
+- **Domain-Specific Networking (DSN)**: Customized network architectures for specific application domains(AI training networks)
 
 ## Highlights
 
