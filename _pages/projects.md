@@ -10,7 +10,7 @@ Here are a part of the research projects I have been working on.
 
 ---
 
-### [FastRMT - High-Speed Programmable Data Plane](https://github.com/Winters123/fast-rmt)
+### [FastRMT - High-Speed Programmable Data Plane](https://github.com/Winters123/FastRMT)
 
 **First open-source FPGA-level RMT architecture implementation**
 
