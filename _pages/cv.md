@@ -35,10 +35,9 @@ Changsha, Hunan, China
 
 ## Research Interests
 
-- Programmable Data Plane Networks
+- Programmable Data Planes
 - Time-Sensitive Networking (TSN)
-- Domain-Specific Networking (DSN)
-- Network Acceleration (FPGA/DPU)
+- In-Network Processing
 
 ## Selected Publications
 
