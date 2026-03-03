@@ -41,7 +41,7 @@ FlexTSN addresses the conflict between deterministic scheduling and hardware ove
 
 ---
 
-### FAST Framework (IWQoS 2019)
+### [FAST Framework (IWQoS 2019)](http://www.xperis.com.cn/)
 
 **Hardware-software co-design network acceleration teaching platform**
 

@@ -69,8 +69,8 @@ Changsha, Hunan, China
 
 ## Professional Service
 
-- Reviewer for journals such as ToN, TC and CN
-- Cited and acknowledged by Google QUIC lead Ian Swett in keynote
+- Reviewer for journals such as Transactions on Computers, Transactions on Networking, Computer Networks.
+- Cited and acknowledged by Google QUIC lead Ian Swett in [keynote](https://conferences.sigcomm.org/sigcomm/2020/files/slides/epiq/0%20QUIC%20and%20HTTP_3%20CPU%20Performance.pdf)
 - Standard: T/CESA 1502-2026 High-Throughput Ethernet Interconnection Protocol
 
 ---

@@ -20,25 +20,20 @@ For a complete list of publications, please visit my [Google Scholar](https://sc
 
 5. Xuyan Jiang, Wenwen Fu, **Xiangrui Yang\***, Yingwen Chen, Wenfei Wu, Zhigang Sun. "FooDog: Empower TSN for Efficient Policing." *IEEE/ACM Transactions on Networking* (CCF-A), 2025, 33(1): 3009-3023. **(Corresponding Author)**
 
-### 2024
 
 6. **Xiangrui Yang**, Lingbin Zeng, Zhongpei Liu, Yingwen Chen, Gaofeng Lv, Cheng Yang, Jinshu Su. "FastRMT: A High-Speed Data Plane Programmable System for Microarchitecture Innovation." *Journal of Computer Research and Development* (CCF-A Chinese Journal), 2024, 47(2): 473-490. **(First Author)**
 
 7. Yingwen Chen, Xiangrui Liang, Huan Zhou, **Xiangrui Yang**, Lu Wu, Gaofeng Lv. "GENDN: A Geospatially Enhanced NDN Framework for Location-Related Pub/Sub Services in NTN-Enabled IoT." *IEEE Internet of Things Journal*, 2024, 12(7): 8381-8393.
 
-### 2022-2023
 
 8. Tao Wang, **Xiangrui Yang\***, Gianni Antichi, Anirudh Sivaraman, Aurojit Panda. "Isolation Mechanisms for High-Speed Packet-Processing Pipelines." *USENIX NSDI* (CCF-A), 2022: 1-16. **(Corresponding Author)**
 
 9. Qian Lv, Xuyan Jiang, **Xiangrui Yang**. "Making Programmable Packet Scheduling Time-Sensitive with a FIFO Queue." *Journal of Cloud Computing*, 2023, 12(1): 141.
 
-10. Zhi Liu, Gaofeng Lv, Jie Wang, **Xiangrui Yang**. "A Programmable SRv6 Processor for SFC." *Electronics*, 2022, 11(18): 2920.
 
-### 2020-2021
+10. **Xiangrui Yang**, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, Gianni Antichi. "Making QUIC Quicker with NIC Offload." *ACM SIGCOMM* (CCF-A), 2020: 1-7. **(First Author)**
 
-11. **Xiangrui Yang**, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, Gianni Antichi. "Making QUIC Quicker with NIC Offload." *ACM SIGCOMM* (CCF-A), 2020: 1-7. **(First Author)**
-
-12. Jie Yan, Wei Quan, **Xiangrui Yang**, Wenwen Fu, Xuyan Jiang, Hailong Yang, Zhigang Sun. "TSN-Builder: Enabling Rapid Customization of Resource-Efficient Switches for Time-Sensitive Networking." *ACM/IEEE DAC*, 2020: 1-6.
+11. Jie Yan, Wei Quan, **Xiangrui Yang**, Wenwen Fu, Xuyan Jiang, Hailong Yang, Zhigang Sun. "TSN-Builder: Enabling Rapid Customization of Resource-Efficient Switches for Time-Sensitive Networking." *ACM/IEEE DAC*, 2020: 1-6.
 
 ### Patents (Selected)
 
