@@ -20,6 +20,7 @@ For a complete list of publications, please visit my [Google Scholar](https://sc
 
 5. Xuyan Jiang, Wenwen Fu, **Xiangrui Yang\***, Yingwen Chen, Wenfei Wu, Zhigang Sun. "FooDog: Empower TSN for Efficient Policing." *IEEE/ACM Transactions on Networking* (CCF-A), 2025, 33(1): 3009-3023. **(Corresponding Author)**
 
+### 2024 & before
 
 6. **Xiangrui Yang**, Lingbin Zeng, Zhongpei Liu, Yingwen Chen, Gaofeng Lv, Cheng Yang, Jinshu Su. "FastRMT: A High-Speed Data Plane Programmable System for Microarchitecture Innovation." *Journal of Computer Research and Development* (CCF-A Chinese Journal), 2024, 47(2): 473-490. **(First Author)**
 
