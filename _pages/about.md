@@ -21,7 +21,7 @@ permalink: /about/
     </div>
 </div>
 
-I am an **Associate Professor** at the College of Computer, [National University of Defense Technology (NUDT)](https://english.nudt.edu.cn/). I received my Ph.D. from NUDT in 2021. I was a visiting PhD student at Queen Mary University of London (happily with [Gianni Antichi](https://gianniantichi.github.io/)) in 2019-2020.
+I am an **Associate Professor** at the College of Computer, [National University of Defense Technology (NUDT)](https://english.nudt.edu.cn/). I received my Ph.D. from NUDT in 2021. I was a visiting PhD student at [Queen Mary University of London](https://www.qmul.ac.uk/) (happily with [Gianni Antichi](https://gianniantichi.github.io/)) in 2019-2020.
 
 Over the years, most of my time has been devoted to **building systems and networks that solve real-world problems for our partners both in industry and institutions**. I believe that good research should not only push the boundaries of knowledge but also make a tangible impact on the world.
 
