@@ -45,10 +45,10 @@ My research focuses on **high-performance and security networks and systems**, w
 
 ## News
 
-- **[2026.02]** Paper "CacheParallel: Comprehensively Exploring Multi-level Acceleration for Diffusion Models" accepted to IEEE DAC 2026.
+- **[2026.02]** Paper "CacheParallel: Comprehensively Exploring Multi-level Acceleration for Diffusion Models" accepted to DAC 2026 (CCF-A).
 - **[2025.12]** Promoted to Associate Professor at NUDT.
-- **[2025.06]** Paper "Memory-Efficient Packet Classification at High-Speed" accepted to IWQoS 2025.
-- **[2025.06]** Paper "Megabits Down to Kilobits: Memory-Efficient Time-Aware Shaping for TSN" accepted to DAC 2025.
+- **[2025.06]** Paper "Memory-Efficient Packet Classification at High-Speed" accepted to IWQoS 2025 (CCF-B).
+- **[2025.06]** Paper "Megabits Down to Kilobits: Memory-Efficient Time-Aware Shaping for TSN" accepted to DAC 2025 (CCF-A).
 - **[2025.06]** Paper "Magneto: Load-Balanced Key-Value Service" accepted to IEEE TSC (CCF-A).
 
 ---
