@@ -21,10 +21,10 @@ Changsha, Hunan, China
 
 | Period | Degree | Institution | Major |
 |--------|--------|-------------|-------|
-| 2018.03 - 2021.12 | Ph.D. | National University of Defense Technology | Cyberspace Security |
-| 2019.09 - 2020.09 | Visiting | Queen Mary University of London | Computer Science |
-| 2015.09 - 2017.12 | M.S. | National University of Defense Technology | Computer Science and Technology |
-| 2011.09 - 2015.06 | B.S. | National University of Defense Technology | Network Engineering |
+| 2018.03 - 2021.12 | Ph.D. | NUDT | Computer Science and Technology |
+| 2019.09 - 2020.09 | Visiting | QMUL(UK) | Computer Science |
+| 2015.09 - 2017.12 | M.S. | NUDT | Computer Science and Technology |
+| 2011.09 - 2015.06 | B.S. | NUDT | Network Engineering |
 
 ## Academic Positions
 

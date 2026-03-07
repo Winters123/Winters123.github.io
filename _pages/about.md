@@ -25,7 +25,7 @@ I am an **Associate Professor** at the College of Computer, [National University
 
 Over the years, most of my time has been devoted to **building systems and networks that solve real-world problems for our partners both in industry and institutions**. I believe that good research should not only push the boundaries of knowledge but also make a tangible impact on the world.
 
-**I am always looking for self-motivated students who share my passion for systems and networking.** If you are interested in FPGAs and/or network systems, and you enjoy building real systems that work for others, I would love to hear from you! Feel free to drop me an email with your CV and a brief description of your research interests.
+**I am always looking for self-motivated students who share my passion for systems and networks.** If you are interested in FPGAs and/or network systems, and you enjoy solving real-world problems with your design, I would love to hear from you! Feel free to drop me an email with your CV or a brief description of your research background.
 
 ## Research Interests
 
