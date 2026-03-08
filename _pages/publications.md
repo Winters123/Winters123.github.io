@@ -27,7 +27,7 @@ For a complete list of publications, please visit my [Google Scholar](https://sc
 7. Yingwen Chen, Xiangrui Liang, Huan Zhou, **Xiangrui Yang**, Lu Wu, Gaofeng Lv. "GENDN: A Geospatially Enhanced NDN Framework for Location-Related Pub/Sub Services in NTN-Enabled IoT." *IEEE Internet of Things Journal*, 2024, 12(7): 8381-8393.
 
 
-8. Tao Wang, **Xiangrui Yang\***, Gianni Antichi, Anirudh Sivaraman, Aurojit Panda. "Isolation Mechanisms for High-Speed Packet-Processing Pipelines." *USENIX NSDI* (CCF-A), 2022: 1-16. **(Corresponding Author)**
+8. Tao Wang, **Xiangrui Yang\***, Gianni Antichi, Anirudh Sivaraman, Aurojit Panda. "Isolation Mechanisms for High-Speed Packet-Processing Pipelines." *USENIX NSDI* (CCF-A), 2022: 1-16. 
 
 9. Qian Lv, Xuyan Jiang, **Xiangrui Yang**. "Making Programmable Packet Scheduling Time-Sensitive with a FIFO Queue." *Journal of Cloud Computing*, 2023, 12(1): 141.
 
