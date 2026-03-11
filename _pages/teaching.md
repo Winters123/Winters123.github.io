@@ -43,8 +43,8 @@ Hands-on course covering:
 
 ### Graduate Students
 - Yuanhang Gao (PhD, co-supervised) - In Network Computing
-- Yuanfeng Chen (PhD, co-supervised) - Packet classification algorithms
-- Xuetan Cheng (M.S., co-supervised) - Programmable packet parsing
+- Yuanfeng Chen (PhD, co-supervised) - In Network Aggregation
+- Xuetan Cheng (M.S., co-supervised) - Programmable parsing (finished in 2025)
 
 
 ### Student Achievements

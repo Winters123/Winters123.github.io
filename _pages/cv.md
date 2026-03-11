@@ -38,6 +38,7 @@ Changsha, Hunan, China
 - Programmable Data Planes
 - Time-Sensitive Networking (TSN)
 - In-Network Processing
+- Network Security
 
 ## Selected Publications
 
@@ -45,7 +46,7 @@ Changsha, Hunan, China
 2. **FooDog: Empower TSN for Efficient Policing** - IEEE/ACM ToN, 2025
 3. **Megabits Down to Kilobits: Memory-Efficient TAS for TSN** - DAC 2025
 4. **Isolation Mechanisms for High-Speed Packet-Processing Pipelines** - USENIX NSDI 2022
-5. **FastRMT: A High-Speed Data Plane Programmable System** - Journal of Computer Research and Development, 2024
+5. **FastRMT: A High-Speed Data Plane Programmable System** - Journal of Computer, 2024
 6. **Making QUIC Quicker with NIC Offload** - ACM SIGCOMM EPIQ 2020
 
 
