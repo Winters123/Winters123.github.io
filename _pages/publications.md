@@ -8,6 +8,10 @@ permalink: /publications/
 
 For a complete list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?hl=en&user=kzbAzGEAAAAJ) profile.
 
+### 2026
+
+1. Qianru Lyu, Di Niu, Jinwei Xu, Jingfei Jiang, **Xiangrui Yang**, Sheng Ma and Dongsheng Li. "CacheParallel: Comprehensively Exploring Multi-level Acceleration for Diffusion Models." *ACM/IEEE DAC* (CCF-A), 2026. **(Corresponding Author)**
+
 ### 2025
 
 1. Yuanfeng Chen, **Xiangrui Yang**, Xuyan Jiang, Jincheng Zhong, Gaofeng Lv, Jinfeng Huang. "Memory-Efficient Packet Classification at High-Speed: The pRFC Architecture with Heuristic Partitioning." *ACM/IEEE IWQoS* (CCF-B), 2025. **(Co-First Author)**

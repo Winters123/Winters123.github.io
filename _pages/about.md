@@ -53,4 +53,4 @@ My research focuses on **high-performance and security networks and systems**, w
 
 ---
 
-**Contact**: yangxiangrui11@nudt.edu.cn
+**Contact**: yangxiangrui11[at]nudt.edu.cn
