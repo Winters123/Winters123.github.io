@@ -45,6 +45,7 @@ My research focuses on **high-performance and security networks and systems**, w
 
 ## News
 
+- **[2026.04]** Paper "ReMu: Bridging Fidelity and Flexibility in High-Mobility Network Emulation at Microsecond Scale" accepted to IWQoS 2026 (CCF-B) as a Short Paper.
 - **[2026.02]** Paper "CacheParallel: Comprehensively Exploring Multi-level Acceleration for Diffusion Models" accepted to DAC 2026 (CCF-A).
 - **[2025.12]** Promoted to Associate Professor at NUDT.
 - **[2025.06]** Paper "Memory-Efficient Packet Classification at High-Speed" accepted to IWQoS 2025 (CCF-B).
