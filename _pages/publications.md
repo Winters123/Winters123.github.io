@@ -10,14 +10,14 @@ permalink: /publications/
 
 <h2>2026</h2>
 
-<div class="pub-item">
-    <div class="pub-title">EPIC: Abstraction and Polymorphism of In-Network Collectives on Ethernet <span class="pub-tag">CCF-A</span></div>
+<div class="pub-item pub-item-featured">
+    <div class="pub-title">EPIC: Abstraction and Polymorphism of In-Network Collectives on Ethernet <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
     <div class="pub-authors">Yitao Yuan, Jianglong Nie, Tianyu Bai, Ruizhe Zhou, Siyuan Cao, Xujie Fan, Yuchen Xu, Junkai Chen, Chenqi Zhao, Nengyuan Zhang, Shaoke Fang, Jiangyuan Chen, Yuanfeng Chen, Jiaqi Sun, Zhan Wang, Xiaohua Xu, Yuchao Zhang, Yang Liu, <strong>Xiangrui Yang</strong>, Jing Lin, Xiaohe Hu, Yang Li, Chao Jiang, Limin Xiao, Weifeng Zhang, Junjie Wang, Wei Cheng, Yazhu Lan, Jianbo Dong, Binzhang Fu, Wenfei Wu</div>
     <div class="pub-venue"><em>ACM SIGCOMM</em>, 2026</div>
 </div>
 
-<div class="pub-item">
-    <div class="pub-title">CacheParallel: Comprehensively Exploring Multi-level Acceleration for Diffusion Models <span class="pub-tag">CCF-A</span></div>
+<div class="pub-item pub-item-featured">
+    <div class="pub-title">CacheParallel: Comprehensively Exploring Multi-level Acceleration for Diffusion Models <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
     <div class="pub-authors">Qianru Lyu, Di Niu, Jinwei Xu, Jingfei Jiang, <strong>Xiangrui Yang</strong>, Sheng Ma, Dongsheng Li</div>
     <div class="pub-venue"><em>ACM/IEEE DAC</em>, 2026 <strong>(Corresponding Author)</strong></div>
 </div>
@@ -36,14 +36,14 @@ permalink: /publications/
     <div class="pub-venue"><em>ACM/IEEE IWQoS</em>, 2025 <strong>(Co-First Author)</strong></div>
 </div>
 
-<div class="pub-item">
-    <div class="pub-title">Megabits Down to Kilobits: Memory-Efficient Time-Aware Shaping for TSN <span class="pub-tag">CCF-A</span></div>
+<div class="pub-item pub-item-featured">
+    <div class="pub-title">Megabits Down to Kilobits: Memory-Efficient Time-Aware Shaping for TSN <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
     <div class="pub-authors">Xuyan Jiang, Wenwen Fu, <strong>Xiangrui Yang*</strong>, Yingwen Chen, Wenfei Wu, Zhigang Sun</div>
     <div class="pub-venue"><em>ACM/IEEE DAC</em>, 2025 <strong>(Corresponding Author)</strong></div>
 </div>
 
-<div class="pub-item">
-    <div class="pub-title">Magneto: Load-Balanced Key-Value Service for Write-Intensive Workloads <span class="pub-tag">CCF-A</span></div>
+<div class="pub-item pub-item-featured">
+    <div class="pub-title">Magneto: Load-Balanced Key-Value Service for Write-Intensive Workloads <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
     <div class="pub-authors">Yuanhang Gao, Yingwen Chen, <strong>Xiangrui Yang*</strong>, Huan Zhou, Shihua Tang, Ming Xu</div>
     <div class="pub-venue"><em>IEEE Transactions on Services Computing</em>, 2025, 18(5): 2994-3007 <strong>(Corresponding Author)</strong></div>
 </div>
@@ -54,18 +54,19 @@ permalink: /publications/
     <div class="pub-venue"><em>Computer Networks</em>, 2025, 264: 111240 <strong>(Corresponding Author)</strong></div>
 </div>
 
-<div class="pub-item">
-    <div class="pub-title">FooDog: Empower TSN for Efficient Policing <span class="pub-tag">CCF-A</span></div>
+<div class="pub-item pub-item-featured">
+    <div class="pub-title">FooDog: Empower TSN for Efficient Policing <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
     <div class="pub-authors">Xuyan Jiang, Wenwen Fu, <strong>Xiangrui Yang*</strong>, Yingwen Chen, Wenfei Wu, Zhigang Sun</div>
     <div class="pub-venue"><em>IEEE/ACM Transactions on Networking</em>, 2025, 33(1): 3009-3023 <strong>(Corresponding Author)</strong></div>
 </div>
 
 <h2>2024 &amp; before</h2>
 
-<div class="pub-item">
-    <div class="pub-title">FastRMT: A High-Speed Data Plane Programmable System for Microarchitecture Innovation <span class="pub-tag">CCF-A</span></div>
+<div class="pub-item pub-item-featured">
+    <div class="pub-title">FastRMT: A High-Speed Data Plane Programmable System for Microarchitecture Innovation <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
     <div class="pub-authors"><strong>Xiangrui Yang</strong>, Lingbin Zeng, Zhongpei Liu, Yingwen Chen, Gaofeng Lv, Cheng Yang, Jinshu Su</div>
     <div class="pub-venue"><em>Journal of Computer Research and Development</em>, 2024, 47(2): 473-490 <strong>(First Author)</strong></div>
+    <div class="pub-links"><a class="pub-link" href="http://www.xperis.com.cn/">Project</a></div>
 </div>
 
 <div class="pub-item">
@@ -74,8 +75,8 @@ permalink: /publications/
     <div class="pub-venue"><em>IEEE Internet of Things Journal</em>, 2024, 12(7): 8381-8393</div>
 </div>
 
-<div class="pub-item">
-    <div class="pub-title">Isolation Mechanisms for High-Speed Packet-Processing Pipelines <span class="pub-tag">CCF-A</span></div>
+<div class="pub-item pub-item-featured">
+    <div class="pub-title">Isolation Mechanisms for High-Speed Packet-Processing Pipelines <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
     <div class="pub-authors">Tao Wang, <strong>Xiangrui Yang*</strong>, Gianni Antichi, Anirudh Sivaraman, Aurojit Panda</div>
     <div class="pub-venue"><em>USENIX NSDI</em>, 2022: 1-16</div>
 </div>
@@ -86,8 +87,8 @@ permalink: /publications/
     <div class="pub-venue"><em>Journal of Cloud Computing</em>, 2023, 12(1): 141</div>
 </div>
 
-<div class="pub-item">
-    <div class="pub-title">Making QUIC Quicker with NIC Offload <span class="pub-tag">CCF-A</span></div>
+<div class="pub-item pub-item-featured">
+    <div class="pub-title">Making QUIC Quicker with NIC Offload <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
     <div class="pub-authors"><strong>Xiangrui Yang</strong>, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, Gianni Antichi</div>
     <div class="pub-venue"><em>ACM SIGCOMM</em>, 2020: 1-7 <strong>(First Author)</strong></div>
 </div>
@@ -100,19 +101,19 @@ permalink: /publications/
 
 <h2>Patents (Selected)</h2>
 
-<div class="pub-item">
+<div class="pub-item patent-item">
     <div class="pub-title">Network Traffic Conditional Branch Logic Processing Method</div>
     <div class="pub-authors"><strong>Xiangrui Yang</strong>, et al.</div>
     <div class="pub-venue">CN119172309B, 2025</div>
 </div>
 
-<div class="pub-item">
+<div class="pub-item patent-item">
     <div class="pub-title">Action Execution Engine Supporting RMT and Its Execution Method</div>
     <div class="pub-authors"><strong>Xiangrui Yang</strong>, et al.</div>
     <div class="pub-venue">CN116156027B, 2023</div>
 </div>
 
-<div class="pub-item">
+<div class="pub-item patent-item">
     <div class="pub-title">Control Path Communication Control Method and Device Supporting RMT</div>
     <div class="pub-authors"><strong>Xiangrui Yang</strong>, et al.</div>
     <div class="pub-venue">CN116155731B, 2023</div>
