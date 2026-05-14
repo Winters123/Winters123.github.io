@@ -10,11 +10,11 @@ For a complete list of publications, please visit my [Google Scholar](https://sc
 
 ### 2026
 
-1. Qianru Lyu, Di Niu, Jinwei Xu, Jingfei Jiang, **Xiangrui Yang**, Sheng Ma and Dongsheng Li. "CacheParallel: Comprehensively Exploring Multi-level Acceleration for Diffusion Models." *ACM/IEEE DAC* (CCF-A), 2026. **(Corresponding Author)**
+1. Yitao Yuan, Jianglong Nie, Tianyu Bai, Ruizhe Zhou, Siyuan Cao, Xujie Fan, Yuchen Xu, Junkai Chen, Chenqi Zhao, Nengyuan Zhang, Shaoke Fang, Jiangyuan Chen, Yuanfeng Chen, Jiaqi Sun, Zhan Wang, Xiaohua Xu, Yuchao Zhang, Yang Liu, **Xiangrui Yang**, Jing Lin, Xiaohe Hu, Yang Li, Chao Jiang, Limin Xiao, Weifeng Zhang, Junjie Wang, Wei Cheng, Yazhu Lan, Jianbo Dong, Binzhang Fu, Wenfei Wu. "EPIC: Abstraction and Polymorphism of In-Network Collectives on Ethernet." *ACM SIGCOMM* (CCF-A), 2026.
 
-2. Mingtai Lv, Xuyan Jiang, Chengxin Liu, Huan Zhou, Gaofeng Lv, Jinshu Su, **Xiangrui Yang\***. "ReMu: Bridging Fidelity and Flexibility in High-Mobility Network Emulation at Microsecond Scale." *ACM/IEEE IWQoS* (CCF-B), 2026. **(Short Paper, Corresponding Author)**
+2. Qianru Lyu, Di Niu, Jinwei Xu, Jingfei Jiang, **Xiangrui Yang**, Sheng Ma and Dongsheng Li. "CacheParallel: Comprehensively Exploring Multi-level Acceleration for Diffusion Models." *ACM/IEEE DAC* (CCF-A), 2026. **(Corresponding Author)**
 
-3. Yitao Yuan, Jianglong Nie, Tianyu Bai, Ruizhe Zhou, Siyuan Cao, Xujie Fan, Yuchen Xu, Junkai Chen, Chenqi Zhao, Nengyuan Zhang, Shaoke Fang, Jiangyuan Chen, Yuanfeng Chen, Jiaqi Sun, Zhan Wang, Xiaohua Xu, Yuchao Zhang, Yang Liu, **Xiangrui Yang**, Jing Lin, Xiaohe Hu, Yang Li, Chao Jiang, Limin Xiao, Weifeng Zhang, Junjie Wang, Wei Cheng, Yazhu Lan, Jianbo Dong, Binzhang Fu, Wenfei Wu. "EPIC: Abstraction and Polymorphism of In-Network Collectives on Ethernet." *ACM SIGCOMM* (CCF-A), 2026.
+3. Mingtai Lv, Xuyan Jiang, Chengxin Liu, Huan Zhou, Gaofeng Lv, Jinshu Su, **Xiangrui Yang\***. "ReMu: Bridging Fidelity and Flexibility in High-Mobility Network Emulation at Microsecond Scale." *ACM/IEEE IWQoS* (CCF-B), 2026. **(Short Paper, Corresponding Author)**
 
 ### 2025
 
@@ -30,17 +30,17 @@ For a complete list of publications, please visit my [Google Scholar](https://sc
 
 ### 2024 & before
 
-6. **Xiangrui Yang**, Lingbin Zeng, Zhongpei Liu, Yingwen Chen, Gaofeng Lv, Cheng Yang, Jinshu Su. "FastRMT: A High-Speed Data Plane Programmable System for Microarchitecture Innovation." *Journal of Computer Research and Development* (CCF-A Chinese Journal), 2024, 47(2): 473-490. **(First Author)**
+1. **Xiangrui Yang**, Lingbin Zeng, Zhongpei Liu, Yingwen Chen, Gaofeng Lv, Cheng Yang, Jinshu Su. "FastRMT: A High-Speed Data Plane Programmable System for Microarchitecture Innovation." *Journal of Computer Research and Development* (CCF-A Chinese Journal), 2024, 47(2): 473-490. **(First Author)**
 
-7. Yingwen Chen, Xiangrui Liang, Huan Zhou, **Xiangrui Yang**, Lu Wu, Gaofeng Lv. "GENDN: A Geospatially Enhanced NDN Framework for Location-Related Pub/Sub Services in NTN-Enabled IoT." *IEEE Internet of Things Journal*, 2024, 12(7): 8381-8393.
+2. Yingwen Chen, Xiangrui Liang, Huan Zhou, **Xiangrui Yang**, Lu Wu, Gaofeng Lv. "GENDN: A Geospatially Enhanced NDN Framework for Location-Related Pub/Sub Services in NTN-Enabled IoT." *IEEE Internet of Things Journal*, 2024, 12(7): 8381-8393.
 
-8. Tao Wang, **Xiangrui Yang\***, Gianni Antichi, Anirudh Sivaraman, Aurojit Panda. "Isolation Mechanisms for High-Speed Packet-Processing Pipelines." *USENIX NSDI* (CCF-A), 2022: 1-16. 
+3. Tao Wang, **Xiangrui Yang\***, Gianni Antichi, Anirudh Sivaraman, Aurojit Panda. "Isolation Mechanisms for High-Speed Packet-Processing Pipelines." *USENIX NSDI* (CCF-A), 2022: 1-16. 
 
-9. Qian Lv, Xuyan Jiang, **Xiangrui Yang**. "Making Programmable Packet Scheduling Time-Sensitive with a FIFO Queue." *Journal of Cloud Computing*, 2023, 12(1): 141.
+4. Qian Lv, Xuyan Jiang, **Xiangrui Yang**. "Making Programmable Packet Scheduling Time-Sensitive with a FIFO Queue." *Journal of Cloud Computing*, 2023, 12(1): 141.
 
-10. **Xiangrui Yang**, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, Gianni Antichi. "Making QUIC Quicker with NIC Offload." *ACM SIGCOMM* (CCF-A), 2020: 1-7. **(First Author)**
+5. **Xiangrui Yang**, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, Gianni Antichi. "Making QUIC Quicker with NIC Offload." *ACM SIGCOMM* (CCF-A), 2020: 1-7. **(First Author)**
 
-11. Jie Yan, Wei Quan, **Xiangrui Yang**, Wenwen Fu, Xuyan Jiang, Hailong Yang, Zhigang Sun. "TSN-Builder: Enabling Rapid Customization of Resource-Efficient Switches for Time-Sensitive Networking." *ACM/IEEE DAC*, 2020: 1-6.
+6. Jie Yan, Wei Quan, **Xiangrui Yang**, Wenwen Fu, Xuyan Jiang, Hailong Yang, Zhigang Sun. "TSN-Builder: Enabling Rapid Customization of Resource-Efficient Switches for Time-Sensitive Networking." *ACM/IEEE DAC*, 2020: 1-6.
 
 ### Patents (Selected)
 

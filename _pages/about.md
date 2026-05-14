@@ -37,7 +37,7 @@ My research focuses on **high-performance and security networks and systems**, w
 
 ## Highlights
 
-- **Publications**: 16+ papers in CCF-recommended venues (9 top-tier papers in CCF-A journals/conferences)
+- **Publications**: 18+ papers in CCF-recommended venues (10 top-tier papers in CCF-A journals/conferences)
 - **Patents**: 7+ granted national invention patents
 - **Open Source**: Creator of FastRMT - the open-source FPGA-level RMT implementation for Menshen (NSDI22)
 - **Teaching**: Published 1 textbooks, First Prize in C4 Network Technology Challenge (2023, 2024, 2025)
