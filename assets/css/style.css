@@ -184,35 +184,47 @@ a:hover {
 }
 
 .pub-item {
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
+    background: white;
+    padding: 18px 20px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #e8eaf3;
+    box-shadow: 0 4px 14px rgba(26, 26, 46, 0.04);
 }
 
 .pub-title {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.08rem;
     color: #1a1a2e;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    line-height: 1.5;
 }
 
 .pub-authors {
     color: #666;
-    font-size: 0.95rem;
-    margin-bottom: 5px;
+    font-size: 0.96rem;
+    margin-bottom: 8px;
+}
+
+.pub-authors strong {
+    color: #1a1a2e;
 }
 
 .pub-venue {
     color: #667eea;
-    font-style: italic;
+    font-size: 0.95rem;
 }
 
 .pub-tag {
     display: inline-block;
     background: #667eea;
     color: white;
-    padding: 2px 8px;
-    border-radius: 4px;
+    padding: 3px 9px;
+    border-radius: 999px;
     font-size: 0.75rem;
+    font-weight: 700;
     margin-left: 8px;
+    vertical-align: middle;
 }
 
 footer {
@@ -238,5 +250,13 @@ footer p {
     
     h1 {
         font-size: 1.6rem;
+    }
+
+    .pub-item {
+        padding: 16px;
+    }
+
+    .pub-title {
+        font-size: 1rem;
     }
 }
