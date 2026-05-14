@@ -14,6 +14,8 @@ For a complete list of publications, please visit my [Google Scholar](https://sc
 
 2. Mingtai Lv, Xuyan Jiang, Chengxin Liu, Huan Zhou, Gaofeng Lv, Jinshu Su, **Xiangrui Yang\***. "ReMu: Bridging Fidelity and Flexibility in High-Mobility Network Emulation at Microsecond Scale." *ACM/IEEE IWQoS* (CCF-B), 2026. **(Short Paper, Corresponding Author)**
 
+3. Yitao Yuan, Jianglong Nie, Tianyu Bai, Ruizhe Zhou, Siyuan Cao, Xujie Fan, Yuchen Xu, Junkai Chen, Chenqi Zhao, Nengyuan Zhang, Shaoke Fang, Jiangyuan Chen, Yuanfeng Chen, Jiaqi Sun, Zhan Wang, Xiaohua Xu, Yuchao Zhang, Yang Liu, **Xiangrui Yang**, Jing Lin, Xiaohe Hu, Yang Li, Chao Jiang, Limin Xiao, Weifeng Zhang, Junjie Wang, Wei Cheng, Yazhu Lan, Jianbo Dong, Binzhang Fu, Wenfei Wu. "EPIC: Abstraction and Polymorphism of In-Network Collectives on Ethernet." *ACM SIGCOMM* (CCF-A), 2026.
+
 ### 2025
 
 1. Yuanfeng Chen, **Xiangrui Yang**, Xuyan Jiang, Jincheng Zhong, Gaofeng Lv, Jinfeng Huang. "Memory-Efficient Packet Classification at High-Speed: The pRFC Architecture with Heuristic Partitioning." *ACM/IEEE IWQoS* (CCF-B), 2025. **(Co-First Author)**
@@ -32,11 +34,9 @@ For a complete list of publications, please visit my [Google Scholar](https://sc
 
 7. Yingwen Chen, Xiangrui Liang, Huan Zhou, **Xiangrui Yang**, Lu Wu, Gaofeng Lv. "GENDN: A Geospatially Enhanced NDN Framework for Location-Related Pub/Sub Services in NTN-Enabled IoT." *IEEE Internet of Things Journal*, 2024, 12(7): 8381-8393.
 
-
 8. Tao Wang, **Xiangrui Yang\***, Gianni Antichi, Anirudh Sivaraman, Aurojit Panda. "Isolation Mechanisms for High-Speed Packet-Processing Pipelines." *USENIX NSDI* (CCF-A), 2022: 1-16. 
 
 9. Qian Lv, Xuyan Jiang, **Xiangrui Yang**. "Making Programmable Packet Scheduling Time-Sensitive with a FIFO Queue." *Journal of Cloud Computing*, 2023, 12(1): 141.
-
 
 10. **Xiangrui Yang**, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, Gianni Antichi. "Making QUIC Quicker with NIC Offload." *ACM SIGCOMM* (CCF-A), 2020: 1-7. **(First Author)**
 
