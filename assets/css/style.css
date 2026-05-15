@@ -223,6 +223,16 @@ a:hover {
     color: #1a1a2e;
 }
 
+.corresponding-author {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.first-author {
+    font-weight: 700;
+    color: #312e81;
+}
+
 .pub-venue {
     color: #667eea;
     font-size: 0.95rem;

@@ -18,14 +18,14 @@ permalink: /publications/
 
 <div class="pub-item pub-item-featured">
     <div class="pub-title">CacheParallel: Comprehensively Exploring Multi-level Acceleration for Diffusion Models <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
-    <div class="pub-authors">Qianru Lyu, Di Niu, Jinwei Xu, Jingfei Jiang, <strong>Xiangrui Yang</strong>, Sheng Ma, Dongsheng Li</div>
-    <div class="pub-venue"><em>ACM/IEEE DAC</em>, 2026 <strong>(Corresponding Author)</strong></div>
+    <div class="pub-authors">Qianru Lyu, Di Niu, Jinwei Xu, Jingfei Jiang, <strong class="corresponding-author">Xiangrui Yang*</strong>, Sheng Ma, Dongsheng Li</div>
+    <div class="pub-venue"><em>ACM/IEEE DAC</em>, 2026</div>
 </div>
 
 <div class="pub-item">
     <div class="pub-title">ReMu: Bridging Fidelity and Flexibility in High-Mobility Network Emulation at Microsecond Scale <span class="pub-tag">CCF-B</span></div>
-    <div class="pub-authors">Mingtai Lv, Xuyan Jiang, Chengxin Liu, Huan Zhou, Gaofeng Lv, Jinshu Su, <strong>Xiangrui Yang*</strong></div>
-    <div class="pub-venue"><em>ACM/IEEE IWQoS</em>, 2026 <strong>(Short Paper, Corresponding Author)</strong></div>
+    <div class="pub-authors">Mingtai Lv, Xuyan Jiang, Chengxin Liu, Huan Zhou, Gaofeng Lv, Jinshu Su, <strong class="corresponding-author">Xiangrui Yang*</strong></div>
+    <div class="pub-venue"><em>ACM/IEEE IWQoS</em>, 2026 <strong>(Short Paper)</strong></div>
 </div>
 
 <h2>2025</h2>
@@ -38,34 +38,34 @@ permalink: /publications/
 
 <div class="pub-item pub-item-featured">
     <div class="pub-title">Megabits Down to Kilobits: Memory-Efficient Time-Aware Shaping for TSN <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
-    <div class="pub-authors">Xuyan Jiang, Wenwen Fu, <strong>Xiangrui Yang*</strong>, Yingwen Chen, Wenfei Wu, Zhigang Sun</div>
-    <div class="pub-venue"><em>ACM/IEEE DAC</em>, 2025 <strong>(Corresponding Author)</strong></div>
+    <div class="pub-authors">Xuyan Jiang, Wenwen Fu, <strong class="corresponding-author">Xiangrui Yang*</strong>, Yingwen Chen, Wenfei Wu, Zhigang Sun</div>
+    <div class="pub-venue"><em>ACM/IEEE DAC</em>, 2025</div>
 </div>
 
 <div class="pub-item pub-item-featured">
     <div class="pub-title">Magneto: Load-Balanced Key-Value Service for Write-Intensive Workloads <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
-    <div class="pub-authors">Yuanhang Gao, Yingwen Chen, <strong>Xiangrui Yang*</strong>, Huan Zhou, Shihua Tang, Ming Xu</div>
-    <div class="pub-venue"><em>IEEE Transactions on Services Computing</em>, 2025, 18(5): 2994-3007 <strong>(Corresponding Author)</strong></div>
+    <div class="pub-authors">Yuanhang Gao, Yingwen Chen, <strong class="corresponding-author">Xiangrui Yang*</strong>, Huan Zhou, Shihua Tang, Ming Xu</div>
+    <div class="pub-venue"><em>IEEE Transactions on Services Computing</em>, 2025, 18(5): 2994-3007</div>
 </div>
 
 <div class="pub-item">
     <div class="pub-title">Memory-Efficient Programmable Packet Parsing for Multi-Tenant Terabit Networks <span class="pub-tag">CCF-B</span></div>
-    <div class="pub-authors">Xuetan Cheng, Yingwen Chen, <strong>Xiangrui Yang*</strong>, Huan Zhou, Lailong Luo, Deke Guo</div>
-    <div class="pub-venue"><em>Computer Networks</em>, 2025, 264: 111240 <strong>(Corresponding Author)</strong></div>
+    <div class="pub-authors">Xuetan Cheng, Yingwen Chen, <strong class="corresponding-author">Xiangrui Yang*</strong>, Huan Zhou, Lailong Luo, Deke Guo</div>
+    <div class="pub-venue"><em>Computer Networks</em>, 2025, 264: 111240</div>
 </div>
 
 <div class="pub-item pub-item-featured">
     <div class="pub-title">FooDog: Empower TSN for Efficient Policing <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
-    <div class="pub-authors">Xuyan Jiang, Wenwen Fu, <strong>Xiangrui Yang*</strong>, Yingwen Chen, Wenfei Wu, Zhigang Sun</div>
-    <div class="pub-venue"><em>IEEE/ACM Transactions on Networking</em>, 2025, 33(1): 3009-3023 <strong>(Corresponding Author)</strong></div>
+    <div class="pub-authors">Xuyan Jiang, Wenwen Fu, <strong class="corresponding-author">Xiangrui Yang*</strong>, Yingwen Chen, Wenfei Wu, Zhigang Sun</div>
+    <div class="pub-venue"><em>IEEE/ACM Transactions on Networking</em>, 2025, 33(1): 3009-3023</div>
 </div>
 
 <h2>2024 &amp; before</h2>
 
 <div class="pub-item pub-item-featured">
     <div class="pub-title">FastRMT: A High-Speed Data Plane Programmable System for Microarchitecture Innovation <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
-    <div class="pub-authors"><strong>Xiangrui Yang</strong>, Lingbin Zeng, Zhongpei Liu, Yingwen Chen, Gaofeng Lv, Cheng Yang, Jinshu Su</div>
-    <div class="pub-venue"><em>Journal of Computer Research and Development</em>, 2024, 47(2): 473-490 <strong>(First Author)</strong></div>
+    <div class="pub-authors"><strong class="first-author">Xiangrui Yang†</strong>, Lingbin Zeng, Zhongpei Liu, Yingwen Chen, Gaofeng Lv, Cheng Yang, Jinshu Su</div>
+    <div class="pub-venue"><em>Journal of Computer Research and Development</em>, 2024, 47(2): 473-490</div>
     <div class="pub-links"><a class="pub-link" href="http://www.xperis.com.cn/">Project</a></div>
 </div>
 
@@ -77,7 +77,7 @@ permalink: /publications/
 
 <div class="pub-item pub-item-featured">
     <div class="pub-title">Isolation Mechanisms for High-Speed Packet-Processing Pipelines <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
-    <div class="pub-authors">Tao Wang, <strong>Xiangrui Yang*</strong>, Gianni Antichi, Anirudh Sivaraman, Aurojit Panda</div>
+    <div class="pub-authors">Tao Wang, <strong class="corresponding-author">Xiangrui Yang*</strong>, Gianni Antichi, Anirudh Sivaraman, Aurojit Panda</div>
     <div class="pub-venue"><em>USENIX NSDI</em>, 2022: 1-16</div>
 </div>
 
@@ -89,8 +89,8 @@ permalink: /publications/
 
 <div class="pub-item pub-item-featured">
     <div class="pub-title">Making QUIC Quicker with NIC Offload <span class="pub-tag">CCF-A</span><span class="pub-badge">Featured</span></div>
-    <div class="pub-authors"><strong>Xiangrui Yang</strong>, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, Gianni Antichi</div>
-    <div class="pub-venue"><em>ACM SIGCOMM</em>, 2020: 1-7 <strong>(First Author)</strong></div>
+    <div class="pub-authors"><strong class="first-author">Xiangrui Yang†</strong>, Lars Eggert, Jörg Ott, Steve Uhlig, Zhigang Sun, Gianni Antichi</div>
+    <div class="pub-venue"><em>ACM SIGCOMM</em>, 2020: 1-7</div>
 </div>
 
 <div class="pub-item">
@@ -121,4 +121,4 @@ permalink: /publications/
 
 ---
 
-<p>* indicates corresponding author</p>
+<p>* indicates corresponding author; † indicates first author</p>
