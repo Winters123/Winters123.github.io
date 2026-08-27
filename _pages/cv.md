@@ -54,6 +54,7 @@ Changsha, Hunan, China
 
 | Project | Role | Funding |
 |---------|------|---------|
+| National-level Research Project on Programmable Networks (2026.06-2029.06) | PI | 1,500,000 CNY |
 | High-Assurance Intelligent Network for Equipment Platforms | PI | 300,000 CNY |
 | Data Center High-Speed Network Processing Acceleration | Co-PI | 3,000,000 CNY |
 | DPU Heterogeneous Collaborative Processing | PI | 50,000 CNY |

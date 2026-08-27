@@ -56,6 +56,11 @@ My research focuses on **high-performance and security networks and systems**, w
 </div>
 
 <div class="news-item">
+    <div class="news-date">2026.08</div>
+    <p>Started a new <strong>national-level research project</strong> on programmable networks as Principal Investigator (1,500,000 CNY, 2026.06-2029.06).</p>
+</div>
+
+<div class="news-item">
     <div class="news-date">2026.05</div>
     <p>Paper "EPIC: Abstraction and Polymorphism of In-Network Collectives on Ethernet" accepted to <strong>SIGCOMM 2026</strong> (CCF-A).</p>
 </div>
