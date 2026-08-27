@@ -63,6 +63,11 @@ Changsha, Hunan, China
 - **Hunan Province Teaching Achievement Second Prize** (2025)
 - **National A-level Competition Excellent Instructor** (2023-2025, 3 consecutive years)
 - **Future Network Technology Innovation Competition Grand Prize** (2023)
+- **Advised student team to win Second Prize in the 19th National College Student Information Security Competition (Works Competition)** (2026)
+
+## Talent Programs
+
+- Selected for the **Hunan Province Furong Plan Young Talent** (湖南省芙蓉计划青年人才) (2026).
 
 ## Patents
 

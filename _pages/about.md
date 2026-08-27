@@ -41,9 +41,19 @@ My research focuses on **high-performance and security networks and systems**, w
 - **Patents**: 7+ granted national invention patents
 - **Open Source**: Creator of FastRMT - the open-source FPGA-level RMT implementation for Menshen (NSDI22)
 - **Teaching**: Published 1 textbooks, First Prize in C4 Network Technology Challenge (2023, 2024, 2025)
-- **Awards**: Hunan Province Teaching Achievement Second Prize (2025), Future Network Innovation Competition Grand Prize (2023)
+- **Awards**: Hunan Province Teaching Achievement Second Prize (2025), Future Network Innovation Competition Grand Prize (2023), Hunan Province Furong Plan Young Talent (2026)
 
 ## News
+
+<div class="news-item">
+    <div class="news-date">2026.08</div>
+    <p>Selected for the <strong>Hunan Province Furong Plan Young Talent</strong> (湖南省芙蓉计划青年人才).</p>
+</div>
+
+<div class="news-item">
+    <div class="news-date">2026.08</div>
+    <p>Advised student team won <strong>Second Prize</strong> in the 19th National College Student Information Security Competition (Works Competition, 作品赛).</p>
+</div>
 
 <div class="news-item">
     <div class="news-date">2026.05</div>

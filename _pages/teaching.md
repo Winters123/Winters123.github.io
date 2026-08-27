@@ -50,6 +50,7 @@ Hands-on course covering:
 ### Student Achievements
 - **National Competition Grand Prize**: 1 student team
 - **First/Second Prize**: 7 student teams
+- **National College Student Information Security Competition (Works Competition) Second Prize**: 1 student team (2026)
 - **Excellent Instructor Award**: National A-level Competition (2023, 2024, 2025)
 
 ## Teaching Awards
