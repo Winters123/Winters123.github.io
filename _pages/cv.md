@@ -4,82 +4,84 @@ title: CV
 permalink: /cv/
 ---
 
-## Xiangrui Yang (杨翔瑞)
+## 杨翔瑞（Xiangrui Yang）
 
-**Associate Professor**  
-College of Computer  
-National University of Defense Technology  
-Changsha, Hunan, China
+**副教授**  
+国防科技大学计算机学院  
+湖南·长沙
 
-**Contact**: yangxiangrui11@nudt.edu.cn
+**邮箱**：yangxiangrui11@nudt.edu.cn
 
-**Google Scholar**: [Profile](https://scholar.google.com/citations?hl=en&user=kzbAzGEAAAAJ)
+**Google Scholar**：[学术主页](https://scholar.google.com/citations?hl=en&user=kzbAzGEAAAAJ)
 
 ---
 
-## Education
+## 教育经历
 
-| Period | Degree | Institution | Major |
+| 时间 | 学位 | 学校 | 专业 |
 |--------|--------|-------------|-------|
-| 2018.03 - 2021.12 | Ph.D. | NUDT | Computer Science and Technology |
-| 2019.09 - 2020.09 | Visiting | QMUL(UK) | Computer Science |
-| 2015.09 - 2017.12 | M.S. | NUDT | Computer Science and Technology |
-| 2011.09 - 2015.06 | B.S. | NUDT | Network Engineering |
+| 2018.03 - 2021.12 | 博士 | 国防科技大学 | 计算机科学与技术 |
+| 2019.09 - 2020.09 | 联合培养 | 伦敦玛丽女王大学（英国） | 计算机科学 |
+| 2015.09 - 2017.12 | 硕士 | 国防科技大学 | 计算机科学与技术 |
+| 2011.09 - 2015.06 | 学士 | 国防科技大学 | 网络工程 |
 
-## Academic Positions
+## 任职经历
 
-| Period | Position | Institution |
+| 时间 | 职位 | 单位 |
 |--------|----------|-------------|
-| 2025.12 - Present | Associate Professor | NUDT, College of Computer |
-| 2021.12 - 2025.12 | Lecturer | NUDT, College of Computer |
+| 2025.12 - 至今 | 副教授 | 国防科技大学计算机学院 |
+| 2021.12 - 2025.12 | 讲师 | 国防科技大学计算机学院 |
 
-## Research Interests
+## 研究方向
 
-- Programmable Data Planes
-- Time-Sensitive Networking (TSN)
-- In-Network Processing
-- Network Security
+- 可编程数据平面
+- 时间敏感网络（TSN）
+- 网内计算
+- 网络安全
 
-## Selected Publications
+## 代表性论文
 
-1. **Magneto: Load-Balanced Key-Value Service** - IEEE TSC, 2025
-2. **FooDog: Empower TSN for Efficient Policing** - IEEE/ACM ToN, 2025
-3. **Megabits Down to Kilobits: Memory-Efficient TAS for TSN** - DAC 2025
-4. **Isolation Mechanisms for High-Speed Packet-Processing Pipelines** - USENIX NSDI 2022
-5. **FastRMT: A High-Speed Data Plane Programmable System** - Journal of Computer, 2024
-6. **Making QUIC Quicker with NIC Offload** - ACM SIGCOMM EPIQ 2020
+1. **EPIC: Abstraction and Polymorphism of In-Network Collectives on Ethernet** - ACM SIGCOMM, 2026
+2. **CacheParallel: Comprehensively Exploring Multi-level Acceleration for Diffusion Models** - ACM/IEEE DAC, 2026
+3. **ReMu: Bridging Fidelity and Flexibility in High-Mobility Network Emulation at Microsecond Scale** - ACM/IEEE IWQoS, 2026
+4. **Magneto: Load-Balanced Key-Value Service** - IEEE TSC, 2025
+5. **FooDog: Empower TSN for Efficient Policing** - IEEE/ACM ToN, 2025
+6. **Megabits Down to Kilobits: Memory-Efficient TAS for TSN** - DAC 2025
+7. **Isolation Mechanisms for High-Speed Packet-Processing Pipelines** - USENIX NSDI, 2022
+8. **FastRMT: A High-Speed Data Plane Programmable System** - 《计算机研究与发展》, 2024
+9. **Making QUIC Quicker with NIC Offload** - ACM SIGCOMM EPIQ, 2020
 
+## 科研项目（部分）
 
-## Research Projects (Selected)
-
-| Project | Role | Funding |
+| 项目 | 角色 | 经费 |
 |---------|------|---------|
-| National-level Research Project on Programmable Networks (2026.06-2029.06) | PI | 1,500,000 CNY |
-| High-Assurance Intelligent Network for Equipment Platforms | PI | 300,000 CNY |
-| Data Center High-Speed Network Processing Acceleration | Co-PI | 3,000,000 CNY |
-| DPU Heterogeneous Collaborative Processing | PI | 50,000 CNY |
+| 国家级科研项目（可编程网络方向，2026.06-2029.06） | 主持 | 150 万元 |
+| 面向装备平台的高可信智能网络 | 主持 | 30 万元 |
+| 数据中心高速网络处理加速 | 共同主持 | 300 万元 |
+| DPU 异构协同处理 | 主持 | 5 万元 |
 
-## Awards & Honors
+## 获奖与荣誉
 
-- **Hunan Province Teaching Achievement Second Prize** (2025)
-- **National A-level Competition Excellent Instructor** (2023-2025, 3 consecutive years)
-- **Future Network Technology Innovation Competition Grand Prize** (2023)
-- **Advised student team to win Second Prize in the 19th National College Student Information Security Competition (Works Competition)** (2026)
+- 指导学员获 **C4 网络技术挑战赛全国总决赛一等奖**（2023–2026）
+- **C4 网络技术挑战赛优秀指导教师**（国家A级赛事，2023–2026，连续四年）
+- 指导学员获 **第十九届全国大学生信息安全竞赛（作品赛）二等奖**（2026）
+- **湖南省教学成果二等奖**（2025）
+- 指导学员获 **未来网络技术创新大赛特等奖**（2023）
 
-## Talent Programs
+## 人才计划
 
-- Selected for the **Hunan Province Furong Plan Young Talent** (湖南省芙蓉计划青年人才) (2026).
+- 入选 **湖南省芙蓉计划青年人才**（2026）
 
-## Patents
+## 发明专利
 
-7 granted national invention patents in network systems and FPGA-based processing.
+授权国家发明专利 7 项，涉及网络系统与 FPGA 处理等方向。
 
-## Professional Service
+## 学术服务
 
-- Reviewer for journals such as Transactions on Computers, Transactions on Networking, Computer Networks.
-- Cited and acknowledged by Google QUIC lead Ian Swett in [keynote](https://conferences.sigcomm.org/sigcomm/2020/files/slides/epiq/0%20QUIC%20and%20HTTP_3%20CPU%20Performance.pdf)
-- Standard: T/CESA 1502-2026 High-Throughput Ethernet Interconnection Protocol
+- 担任 Transactions on Computers、Transactions on Networking、Computer Networks 等期刊审稿人
+- 研究成果被 Google QUIC 负责人 Ian Swett 在 SIGCOMM 2020 EPIQ [主题报告](https://conferences.sigcomm.org/sigcomm/2020/files/slides/epiq/0%20QUIC%20and%20HTTP_3%20CPU%20Performance.pdf)中引用致谢
+- 参与制定团体标准：T/CESA 1502-2026《高吞吐以太网互连协议》
 
 ---
 
-[Download Full CV (PDF)](assets/pdf/cv.pdf)
+[下载完整简历（PDF）](assets/pdf/cv.pdf)

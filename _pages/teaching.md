@@ -48,12 +48,13 @@ Hands-on course covering:
 
 
 ### Student Achievements
-- **National Competition Grand Prize**: 1 student team
-- **First/Second Prize**: 7 student teams
+- **C4 Network Technology Challenge National Finals First Prize**: 1 student team (2026)
 - **National College Student Information Security Competition (Works Competition) Second Prize**: 1 student team (2026)
-- **Excellent Instructor Award**: National A-level Competition (2023, 2024, 2025)
+- **National Competition Grand Prize**: 1 student team
+- **First/Second Prize**: 9 student teams
+- **Excellent Instructor Award**: National A-level Competition (2023-2026, 4 consecutive years)
 
 ## Teaching Awards
 
 - **Hunan Province Teaching Achievement Second Prize** (2025)
-- **National A-level Competition Excellent Instructor** (2023-2025, consecutive 3 years)
+- **National A-level Competition Excellent Instructor** (2023-2026, 4 consecutive years)
