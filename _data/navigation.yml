@@ -5,7 +5,5 @@ main:
     url: /publications/
   - title: "项目"
     url: /projects/
-  - title: "教学"
-    url: /teaching/
   - title: "简历"
     url: /cv/

@@ -31,9 +31,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path
-  teaching:
-    output: true
-    permalink: /teaching/:path
 
 defaults:
   - scope:
@@ -51,11 +48,6 @@ defaults:
       type: "projects"
     values:
       layout: "project"
-  - scope:
-      path: ""
-      type: "teaching"
-    values:
-      layout: "teaching"
 
 exclude:
   - Gemfile
