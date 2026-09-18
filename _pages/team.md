@@ -1,48 +1,48 @@
 ---
 layout: page
-title: Team
+title: 团队成员
 permalink: /team/
 ---
 
-## Current Students
+## 在读学生
 
-### PhD Students
+### 博士生
 
 <div class="team-item">
     <div class="team-name">Xuyan Jiang</div>
-    <div class="team-info">PhD Student · 2026 · Co-supervised with Yingwen Chen</div>
+    <div class="team-info">博士生 · 2026 级 · 与 Yingwen Chen 联合培养</div>
 </div>
 
 <div class="team-item">
     <div class="team-name">Huan Zhou</div>
-    <div class="team-info">PhD Student · 2026 · Co-supervised with Yingwen Chen</div>
+    <div class="team-info">博士生 · 2026 级 · 与 Yingwen Chen 联合培养</div>
 </div>
 
-### Master Students
+### 硕士生
 
 <div class="team-item">
     <div class="team-name">Chenxin Liu</div>
-    <div class="team-info">MSc Student · 2025 Fall</div>
+    <div class="team-info">硕士生 · 2025 级</div>
 </div>
 
 <div class="team-item">
     <div class="team-name">Mufeng Shi</div>
-    <div class="team-info">MSc Student · 2025 Fall</div>
+    <div class="team-info">硕士生 · 2025 级</div>
 </div>
 
 <div class="team-item">
     <div class="team-name">Yiting Li</div>
-    <div class="team-info">MSc Student · 2025 Fall</div>
+    <div class="team-info">硕士生 · 2025 级</div>
 </div>
 
 <div class="team-item">
     <div class="team-name">Hongjia Chen</div>
-    <div class="team-info">MSc Student · 2026 Fall</div>
+    <div class="team-info">硕士生 · 2026 级</div>
 </div>
 
-## Alumni
+## 已毕业学生
 
 <div class="team-item">
     <div class="team-name">Yuanfeng Chen</div>
-    <div class="team-info">Visiting Student · now PhD at NUDT</div>
+    <div class="team-info">访问学生 · 现为国防科技大学博士生</div>
 </div>

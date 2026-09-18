@@ -1,31 +1,31 @@
 ---
-title: FastRMT - High-Speed Programmable Data Plane
-description: First open-source FPGA-level RMT architecture implementation
+title: FastRMT——高速可编程数据平面
+description: 首个开源的 FPGA 级 RMT 架构实现
 img: assets/img/project_fastrmt.jpg
 importance: 1
 category: work
 ---
 
-**FastRMT** is the first open-source FPGA-level RMT (Reconfigurable Match-Action Table) architecture implementation, supporting 100Gbps line-rate processing with microsecond-level latency.
+**FastRMT** 是首个开源的 FPGA 级 RMT（可重构匹配-动作表，Reconfigurable Match-Action Table）架构实现，支持 100Gbps 线速处理与微秒级时延。
 
-## Key Features
+## 主要特性
 
-- **High Performance**: 100Gbps line-rate packet processing
-- **Low Latency**: Microsecond-level processing delay
-- **Fully Programmable**: Supports custom packet processing pipelines
-- **Open Source**: First open-source FPGA implementation of RMT architecture
+- **高性能**：100Gbps 线速报文处理
+- **低时延**：微秒级处理时延
+- **全可编程**：支持定制化报文处理流水线
+- **开源**：首个开源的 FPGA 级 RMT 架构实现
 
-## Impact
+## 成果影响
 
-- Adopted by Xilinx OpenNIC, Maipu Smart NIC, and satellite switching chips
-- Published in CCF-A journal *Journal of Computer Research and Development* (2024)
-- Presented at NSDI 2022
+- 被 Xilinx OpenNIC、Maipu 智能网卡及卫星交换芯片采用
+- 发表于 CCF-A 期刊《计算机研究与发展》（Journal of Computer Research and Development，2024）
+- 成果发表于 NSDI 2022
 
-## Related Publications
+## 相关论文
 
 1. **FastRMT: A High-Speed Data Plane Programmable System for Microarchitecture Innovation** - Journal of Computer Research and Development, 2024
 2. **Isolation Mechanisms for High-Speed Packet-Processing Pipelines** - USENIX NSDI 2022
 
-## Links
+## 相关链接
 
-- [GitHub Repository](https://github.com/fast-rmt)
+- [GitHub 仓库](https://github.com/fast-rmt)

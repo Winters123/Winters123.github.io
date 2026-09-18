@@ -1,56 +1,56 @@
 ---
 layout: page
-title: Projects
+title: 项目
 permalink: /projects/
 ---
 
-## Research Projects
+## 科研项目
 
-Here are a part of the research projects I have been working on.
+以下是我近年来开展的部分科研项目。
 
 ---
 
 ### [FastRMT - High-Speed Programmable Data Plane](https://github.com/Winters123/FastRMT)
 
-**First open-source FPGA-level RMT architecture implementation**
+**首个开源的 FPGA 级 RMT 架构实现**
 
-FastRMT is the first open-source FPGA-level RMT (Reconfigurable Match-Action Table) architecture implementation, supporting 100Gbps line-rate processing with microsecond-level latency.
+FastRMT 是首个开源的 FPGA 级 RMT（可重构匹配-动作表，Reconfigurable Match-Action Table）架构实现，支持 100Gbps 线速处理与微秒级时延。
 
-**Key Features:**
-- 100Gbps line-rate packet processing
-- Microsecond-level processing delay
-- Fully programmable pipelines
-- Open source
+**主要特性：**
+- 100Gbps 线速报文处理
+- 微秒级处理时延
+- 全可编程流水线
+- 完全开源
 
-**Impact:** Adopted by many interesting opensource projects like [Menshen](https://www.usenix.org/conference/nsdi22/presentation/wang-tao).
+**成果落地：** 被 [Menshen](https://www.usenix.org/conference/nsdi22/presentation/wang-tao) 等多个有影响力的开源项目采用。
 
 ---
 
 ### FlexTSN - Time-Sensitive Networking
 
-**Flexible TSN switching model with programmable scheduling**
+**支持可编程调度的灵活 TSN 交换模型**
 
-FlexTSN addresses the conflict between deterministic scheduling and hardware overhead in Time-Sensitive Networking.
+FlexTSN 致力于解决时间敏感网络中确定性调度与硬件开销之间的矛盾。
 
-**Key Innovations:**
-- AIAO (Any-In-Any-Out) programmable scheduling primitive
-- Memory-efficient design
-- IEEE 802.1Qbv compliant
+**核心创新：**
+- AIAO（Any-In-Any-Out）可编程调度原语
+- 高内存效率设计
+- 符合 IEEE 802.1Qbv 标准
 
-**Impact:** Core architecture integrated into Yinhe Hengxin I TSN switching chip.
+**成果落地：** 核心架构已集成至 Yinhe Hengxin I TSN 交换芯片。
 
 ---
 
 ### [FAST Framework (IWQoS 2019)](http://www.xperis.com.cn/)
 
-**Hardware-software co-design network acceleration teaching platform**
+**软硬件协同设计的网络加速教学平台**
 
-FAST (FPGA-Accelerated Switching and Testing) is designed for both research and education in network systems.
+FAST（FPGA-Accelerated Switching and Testing）是面向网络系统科研与教学设计的框架。
 
-**Adoption:**
-- Beijing University of Posts and Telecommunications
-- University of Electronic Science and Technology of China
-- Southeast University
-- National University of Defense Technology
+**采用高校：**
+- 北京邮电大学
+- 电子科技大学
+- 东南大学
+- 国防科技大学
 
-**Impact:** Supported research leading to publications in SIGCOMM, ToN, and other top venues.
+**成果落地：** 支撑的研究成果发表于 SIGCOMM、ToN 等顶级会议/期刊。

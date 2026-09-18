@@ -1,31 +1,31 @@
 ---
-title: FlexTSN - Time-Sensitive Networking
-description: Flexible TSN switching model with programmable scheduling
+title: FlexTSN——时间敏感网络
+description: 支持可编程调度的灵活 TSN 交换模型
 img: assets/img/project_tsn.jpg
 importance: 2
 category: work
 ---
 
-**FlexTSN** is a flexible Time-Sensitive Networking (TSN) switching model that addresses the conflict between deterministic scheduling and hardware overhead.
+**FlexTSN** 是一个支持可编程调度的灵活时间敏感网络（TSN）交换模型，致力于解决确定性调度与硬件开销之间的矛盾。
 
-## Key Innovations
+## 核心创新
 
-- **AIAO Primitive**: Any-In-Any-Out programmable scheduling primitive
-- **Memory Efficient**: Dramatically reduces on-chip storage requirements
-- **Standard Compliant**: Compatible with IEEE 802.1Qbv TSN standards
+- **AIAO 原语**：Any-In-Any-Out 可编程调度原语
+- **高内存效率**：大幅降低片上存储需求
+- **符合标准**：兼容 IEEE 802.1Qbv TSN 标准
 
-## Applications
+## 应用场景
 
-- Industrial automation networks
-- Automotive Ethernet
-- Aerospace systems
+- 工业自动化网络
+- 车载以太网
+- 航空航天系统
 
-## Impact
+## 成果影响
 
-- Core architecture integrated into Yinhe Hengxin TSN switching chip
-- Supports domestic chip self-reliance
+- 核心架构已集成至 Yinhe Hengxin TSN 交换芯片
+- 支撑国产芯片自主可控
 
-## Related Publications
+## 相关论文
 
 1. **Megabits Down to Kilobits: Memory-Efficient Time-Aware Shaping for TSN** - ACM/IEEE DAC 2025
 2. **FooDog: Empower TSN for Efficient Policing** - IEEE/ACM Transactions on Networking, 2025

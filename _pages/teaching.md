@@ -1,60 +1,59 @@
 ---
 layout: page
-title: Teaching
+title: 教学
 permalink: /teaching/
 ---
 
-## Current Courses
+## 主讲课程
 
-### Computer Networks (计算机网络)
-**Undergraduate Course** | Fall Semester
+### 计算机网络（Computer Networks）
+**本科生课程** | 秋季学期
 
-Introduction to computer networking principles, including:
-- Network architecture and protocols
-- TCP/IP protocol stack
-- Routing and switching
-- Network security basics
+介绍计算机网络的基本原理，内容包括：
+- 网络体系结构与协议
+- TCP/IP 协议栈
+- 路由与交换
+- 网络安全基础
 
-### Network System Principles (网络系统原理)
-**Graduate Course** | Spring Semester
+### 网络系统原理（Network System Principles）
+**研究生课程** | 春季学期
 
-Advanced topics in network systems:
-- Software-defined networking (SDN)
-- Network function virtualization (NFV)
-- Programmable data planes
-- Network performance analysis
+网络系统方向的进阶内容：
+- 软件定义网络（SDN）
+- 网络功能虚拟化（NFV）
+- 可编程数据平面
+- 网络性能分析
 
-### Routing and Switching Technology (路由与交换技术)
-**Undergraduate Course** | Spring Semester
+### 路由与交换技术（Routing and Switching Technology）
+**本科生课程** | 春季学期
 
-Hands-on course covering:
-- Switch architecture and configuration
-- Routing protocols (OSPF, BGP)
-- Network design principles
-- Lab exercises with real equipment
+实践型课程，内容包括：
+- 交换机体系结构与配置
+- 路由协议（OSPF、BGP）
+- 网络设计原则
+- 真机实验
 
-## Teaching Materials
+## 教材建设
 
-### Textbooks (Published)
+### 已出版教材
 
-1. **"Network System Principles"** - Fourteenth Five-Year Key Planning Textbook
+1. **《网络系统原理》**——"十四五"重点规划教材
 
-## Student Supervision
+## 学生指导
 
-### Graduate Students
-- Yuanhang Gao (PhD, co-supervised) - In Network Computing
-- Yuanfeng Chen (PhD, co-supervised) - In Network Aggregation
-- Xuetan Cheng (M.S., co-supervised) - Programmable parsing (finished in 2025)
+### 研究生
+- Yuanhang Gao（博士，联合培养）—— 网内计算
+- Yuanfeng Chen（博士，联合培养）—— 网内聚合
+- Xuetan Cheng（硕士，联合培养）—— 可编程报文解析（2025 年毕业）
 
+### 学生获奖
+- **C4 网络技术挑战赛全国总决赛一等奖**：1 支队伍（2026）
+- **全国大学生信息安全竞赛（作品赛）二等奖**：1 支队伍（2026）
+- **国家级竞赛特等奖**：1 支队伍
+- **国家级竞赛一等奖/二等奖**：9 支队伍
+- **国家 A 级赛事优秀指导教师**（2023–2026，连续四年）
 
-### Student Achievements
-- **C4 Network Technology Challenge National Finals First Prize**: 1 student team (2026)
-- **National College Student Information Security Competition (Works Competition) Second Prize**: 1 student team (2026)
-- **National Competition Grand Prize**: 1 student team
-- **First/Second Prize**: 9 student teams
-- **Excellent Instructor Award**: National A-level Competition (2023-2026, 4 consecutive years)
+## 教学获奖
 
-## Teaching Awards
-
-- **Hunan Province Teaching Achievement Second Prize** (2025)
-- **National A-level Competition Excellent Instructor** (2023-2026, 4 consecutive years)
+- **湖南省教学成果二等奖**（2025）
+- **国家 A 级赛事优秀指导教师**（2023–2026，连续四年）

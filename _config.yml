@@ -1,14 +1,14 @@
-title: Xiangrui Yang
-description: Associate Professor at National University of Defense Technology
-author: Xiangrui Yang
+title: 杨翔瑞
+description: 国防科技大学计算机学院副教授，研究方向为可编程数据平面、时间敏感网络（TSN）与网内计算
+author: 杨翔瑞（Xiangrui Yang）
 baseurl: ""
 url: "https://winters123.github.io"
 
 repository: Winters123/winters123.github.io
 
-lang: en
+lang: zh-CN
 
-keywords: networking, programmable networks, TSN, high-performance networks, FPGA
+keywords: 计算机网络, 可编程网络, 时间敏感网络, 高性能网络, FPGA, networking, programmable networks, TSN, high-performance networks
 
 timezone: Asia/Shanghai
 

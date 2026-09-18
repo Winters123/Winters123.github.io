@@ -1,36 +1,36 @@
 ---
-title: FAST Framework
-description: Hardware-software co-design network acceleration teaching platform
+title: FAST Framework——网络加速教学平台
+description: 软硬件协同设计的网络加速教学平台
 img: assets/img/project_fast.jpg
 importance: 3
 category: work
 ---
 
-**FAST** (FPGA-Accelerated Switching and Testing) is a hardware-software co-design network acceleration framework designed for both research and education.
+**FAST**（FPGA-Accelerated Switching and Testing）是一个软硬件协同设计的网络加速框架，兼顾科研与教学。
 
-## Key Features
+## 主要特性
 
-- **Educational Focus**: Designed for teaching network systems
-- **Research Platform**: Supports cutting-edge network research
-- **Multi-University Adoption**: Used at top Chinese universities
+- **面向教学**：为网络系统课程教学而设计
+- **科研平台**：支撑前沿网络研究
+- **多校采用**：被国内多所高校采用
 
-## Adoption
+## 采用高校
 
-- Beijing University of Posts and Telecommunications
-- University of Electronic Science and Technology of China
-- Southeast University
-- National University of Defense Technology
+- 北京邮电大学
+- 电子科技大学
+- 东南大学
+- 国防科技大学
 
-## Research Impact
+## 科研影响
 
-Supported research teams at:
-- Hong Kong Polytechnic University
-- Peking University
+支撑了以下机构的研究团队：
+- 香港理工大学
+- 北京大学
 
-Leading to publications in SIGCOMM, ToN, and other top venues.
+相关研究成果发表于 SIGCOMM、ToN 等顶级会议/期刊。
 
-## Teaching Impact
+## 教学影响
 
-- Published key textbooks
-- Students won national competition awards
-- Recognized as excellent instructor for national A-level competitions
+- 出版重点教材
+- 指导学生获国家级竞赛奖励
+- 获国家 A 级赛事优秀指导教师

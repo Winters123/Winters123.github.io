@@ -1,11 +1,11 @@
 main:
-  - title: "About"
+  - title: "首页"
     url: /
-  - title: "Publications"
+  - title: "论文"
     url: /publications/
-  - title: "Projects"
+  - title: "项目"
     url: /projects/
-  - title: "Teaching"
+  - title: "教学"
     url: /teaching/
-  - title: "CV"
+  - title: "简历"
     url: /cv/
