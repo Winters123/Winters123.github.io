@@ -61,21 +61,31 @@ permalink: /projects/
 
 <div class="fund-list">
 
+
 <div class="fund-item">
     <div class="fund-main">
         <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">国家级科研项目（可编程网络方向）</span>
+        <span class="fund-title">电信网****关键技术（国家级项目）</span>
     </div>
-    <div class="fund-meta"><span class="fund-period">2026.06 – 2029.06</span><span class="fund-amount">150 万元</span></div>
+    <div class="fund-meta"><span class="fund-period">2023.12 – 2025.12</span><span class="fund-amount">150 万元</span></div>
 </div>
 
 <div class="fund-item">
     <div class="fund-main">
         <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">国家级项目</span>
+        <span class="fund-title">湖南省芙蓉计划青年人才（省部级）</span>
     </div>
-    <div class="fund-meta"><span class="fund-period">2023.12 – 2025.12</span><span class="fund-amount">150 万元</span></div>
+    <div class="fund-meta"><span class="fund-period">2026.06 – 2029.06</span><span class="fund-amount">30 万元</span></div>
 </div>
+
+<div class="fund-item">
+    <div class="fund-main">
+        <span class="fund-role role-pi">子课题负责人</span>
+        <span class="fund-title">电信*****技术（横向项目）</span>
+    </div>
+    <div class="fund-meta"><span class="fund-period">2024.10 – 2026.09</span><span class="fund-amount">200 / 480 万元</span></div>
+</div>
+
 
 <div class="fund-item">
     <div class="fund-main">
@@ -85,34 +95,22 @@ permalink: /projects/
     <div class="fund-meta"><span class="fund-period">2022.11 – 2024.05</span><span class="fund-amount">120 / 360 万元</span></div>
 </div>
 
-<div class="fund-item">
-    <div class="fund-main">
-        <span class="fund-role role-sub">课题负责人</span>
-        <span class="fund-title">省部级重点项目（FPGA 加速方向）</span>
-    </div>
-    <div class="fund-meta"><span class="fund-period">2022.11 – 2024.06</span><span class="fund-amount">120 万元</span></div>
-</div>
+
 
 <div class="fund-item">
     <div class="fund-main">
         <span class="fund-role role-sub">课题负责人</span>
-        <span class="fund-title">数据中心高速网络处理加速技术（省部级）</span>
+        <span class="fund-title">数据中心**网络处理加速技术（省部级）</span>
     </div>
     <div class="fund-meta"><span class="fund-period">2023.08 – 2026.05</span><span class="fund-amount">75 / 300 万元</span></div>
 </div>
 
-<div class="fund-item">
-    <div class="fund-main">
-        <span class="fund-role role-sub">课题负责人</span>
-        <span class="fund-title">国家级项目（FPGA 方向）</span>
-    </div>
-    <div class="fund-meta"><span class="fund-period">2022.06 – 2024.06</span><span class="fund-amount">75 万元</span></div>
-</div>
+
 
 <div class="fund-item">
     <div class="fund-main">
         <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">第三批高层次人才青年英才</span>
+        <span class="fund-title">国防科大第三批高层次人才青年英才</span>
     </div>
     <div class="fund-meta"><span class="fund-period">2022.06 – 2026.06</span><span class="fund-amount">40 万元</span></div>
 </div>
@@ -120,7 +118,7 @@ permalink: /projects/
 <div class="fund-item">
     <div class="fund-main">
         <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">省部级项目（NFV 方向）</span>
+        <span class="fund-title">面向DPU的软硬协同加速机理研究（全国重点实验室基金）</span>
     </div>
     <div class="fund-meta"><span class="fund-period">2022.01 – 2023.12</span><span class="fund-amount">30 万元</span></div>
 </div>
@@ -128,7 +126,7 @@ permalink: /projects/
 <div class="fund-item">
     <div class="fund-main">
         <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">弹性智能网络多路径并行传输关键技术（省部级）</span>
+        <span class="fund-title">弹性智能网络多路径并行传输关键技术（科工局重点实验室基金）</span>
     </div>
     <div class="fund-meta"><span class="fund-period">2023.01 – 2024.12</span><span class="fund-amount">20 万元</span></div>
 </div>
@@ -136,7 +134,7 @@ permalink: /projects/
 <div class="fund-item">
     <div class="fund-main">
         <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">算网融合的 DPU 异构协同处理模型及机理研究（省部级）</span>
+        <span class="fund-title">算网融合的 DPU 异构协同处理模型及机理研究（省自然科学基金）</span>
     </div>
     <div class="fund-meta"><span class="fund-period">2023.01 – 2025.12</span><span class="fund-amount">5 万元</span></div>
 </div>
