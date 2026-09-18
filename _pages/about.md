@@ -24,13 +24,15 @@ hide_title: true
 
 我是[国防科技大学计算机学院](https://english.nudt.edu.cn/)**副教授、硕士生导师**，2021 年于国防科技大学获博士学位，2019–2020 年赴[英国伦敦玛丽女王大学](https://www.qmul.ac.uk/)联合培养（合作导师 [Gianni Antichi](https://gianniantichi.github.io/)），2026 年入选**湖南省芙蓉计划青年人才**。
 
-多年来，我大部分精力都投入在**构建能够为工业界与科研院所的合作伙伴解决真实问题的网络与系统**上。我相信，好的研究不仅要拓展知识的边界，更应当对现实世界产生切实的影响——课题组开源的 [FastRMT](https://github.com/Winters123/FastRMT) 是首个开源的 FPGA 级 RMT 架构实现，已被 NSDI'22 论文 Menshen 等多个开源项目采用。
+多年来，我大部分精力都投入在**构建能够为工业界与科研院所的合作伙伴解决真实问题的网络与系统**上。我相信，好的研究不仅要拓展知识的边界，更应当对现实世界产生切实的影响。
+
+目前已在 **ACM SIGCOMM、USENIX NSDI** 等国际顶级会议及 IEEE/ACM ToN 等权威期刊发表论文 30 余篇（CCF-A 类 10 余篇）；课题组开源的 [FastRMT](https://github.com/Winters123/FastRMT) 是首个开源的 FPGA 级 RMT 架构实现，已被 NSDI'22 论文 Menshen 等多个开源项目采用。
 
 <div class="stats-bar">
-    <div class="stat-item"><div class="stat-number">18+</div><div class="stat-label">CCF 推荐会议/期刊论文</div></div>
-    <div class="stat-item"><div class="stat-number">10+</div><div class="stat-label">CCF-A 类论文</div></div>
-    <div class="stat-item"><div class="stat-number">7+</div><div class="stat-label">授权国家发明专利</div></div>
-    <div class="stat-item"><div class="stat-number">150万+</div><div class="stat-label">主持国家级项目经费</div></div>
+    <div class="stat-item"><div class="stat-number">30+</div><div class="stat-label">发表论文</div></div>
+    <div class="stat-item"><div class="stat-number">10+</div><div class="stat-label">CCF-A 类顶会顶刊</div></div>
+    <div class="stat-item"><div class="stat-number">10</div><div class="stat-label">授权国家发明专利</div></div>
+    <div class="stat-item"><div class="stat-number">1000万+</div><div class="stat-label">科研项目总经费</div></div>
     <div class="stat-item"><div class="stat-number">4 届</div><div class="stat-label">国家 A 级赛事优秀指导教师</div></div>
 </div>
 
@@ -38,23 +40,25 @@ hide_title: true
 
 我的研究聚焦**高性能与安全网络系统**，主要包括：
 
+- **网络与系统安全**：网络流量分析、FPGA/CPU 异构高性能网络处理
+- **在网计算**：面向分布式 AI 训练与推理系统的网内加速
 - **可编程数据平面**：高速可编程网络系统、基于 FPGA 的网内处理
 - **时间敏感网络（TSN）**：面向工业与车载应用的确定性网络
 - **面向领域的网络（DSN）**：面向特定应用领域（如 AI 训练网络）的定制化网络体系结构
 
 ## 学生培养与教学
 
-课题组在读博士、硕士研究生多人，研究方向覆盖网内计算、网内聚合、可编程报文解析等；与北京大学、盛科网络、华为、联想等团队保持紧密合作（共同项目、联合署名论文），相关技术已在网络安全芯片与网络监控系统中落地。近年来指导学员取得的主要成绩：
+课题组现有在读硕士、博士研究生 8 人，组内氛围和谐、以老带新；与北京大学、盛科网络、百度、华为、联想等高校和企业保持紧密合作（共同项目、联合署名论文），相关技术已在网络安全芯片与网络监控系统中落地。科研项目总经费超过 1000 万元，可为学生的科研训练与学术发展提供充足支持。近年来指导学员取得的主要成绩：
 
 - 指导学员获 **C4 网络技术挑战赛全国总决赛一等奖**（2023–2026，连续四年），本人连续四年获大赛**优秀指导教师**（国家 A 级赛事）
 - 指导学员获**第十九届全国大学生信息安全竞赛（作品赛）二等奖**（2026）
 - 指导学员获国家级竞赛**特等奖** 1 项、**一等奖/二等奖** 9 项
-- 出版《网络系统原理》（"十四五"重点规划教材），主讲《计算机网络》《网络系统原理》《路由与交换技术》
+- 出版教材《下一代互联网技术 IPv6》，主讲《计算机网络》《网络系统原理》《路由与交换技术》
 - 获**湖南省教学成果二等奖**（2025）
 
 <div class="join-card">
     <h3>加入我们</h3>
-    <p>如果你正在考虑读研，对 FPGA、可编程网络、确定性网络等方向感兴趣，欢迎报考我的研究生。无论你来自本校还是外校，只要自驱力强、乐于动手用设计解决真实问题，我都非常欢迎你与我联系。</p>
+    <p>如果你正在考虑读研，对网络与系统安全、在网计算、可编程网络等方向感兴趣，欢迎报考我的研究生。无论你来自本校还是外校，只要自驱力强、乐于动手用设计解决真实问题，我都非常欢迎你与我联系。</p>
     <p>请将<strong>简历（附成绩单）</strong>与你的<strong>兴趣方向</strong>发送至 <a href="mailto:yangxiangrui11@nudt.edu.cn">yangxiangrui11@nudt.edu.cn</a>，期待与你交流。</p>
 </div>
 

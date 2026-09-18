@@ -39,6 +39,7 @@ header nav {
 }
 
 header .logo a {
+    font-family: 'Source Han Serif SC', 'Noto Serif SC', 'Songti SC', 'STSong', SimSun, Georgia, 'Times New Roman', serif;
     font-size: 1.4rem;
     font-weight: 700;
     color: white;
@@ -67,6 +68,11 @@ main {
     margin: 0 auto;
     padding: 40px 20px;
     min-height: calc(100vh - 200px);
+}
+
+h1, h2, h3 {
+    font-family: 'Source Han Serif SC', 'Noto Serif SC', 'Songti SC', 'STSong', SimSun, Georgia, 'Times New Roman', serif;
+    font-weight: 700;
 }
 
 h1 {
