@@ -2,30 +2,37 @@
 layout: page
 title: 关于
 permalink: /about/
+hide_title: true
 ---
 
-<div class="profile-section">
+<div class="profile-grid">
     <div class="profile-image">
-        <img src="{{ '/assets/img/profile.png' | relative_url }}" alt="杨翔瑞" style="width: 200px; height: 200px; border-radius: 10px; object-fit: cover;">
+        <img src="{{ '/assets/img/profile.png' | relative_url }}" alt="杨翔瑞" style="width: 170px; height: 170px; border-radius: 12px; object-fit: cover;">
     </div>
     <div class="profile-info">
         <h1>杨翔瑞（Xiangrui Yang）</h1>
-        <p class="title">副教授</p>
-        <p class="affiliation">国防科技大学</p>
-        <p class="affiliation">计算机学院</p>
-    </div>
-    <div class="social-links">
-        <a href="mailto:yangxiangrui11@nudt.edu.cn" title="邮箱">📧</a>
-        <a href="https://scholar.google.com/citations?hl=en&user=kzbAzGEAAAAJ" title="Google Scholar">🎓</a>
-        <a href="https://github.com/Winters123" title="GitHub">💻</a>
+        <p class="title">副教授 · 硕士生导师</p>
+        <p class="affiliation">国防科技大学 计算机学院</p>
+        <p class="affiliation">湖南 · 长沙</p>
+        <div class="profile-links">
+            <a class="profile-link" href="mailto:yangxiangrui11@nudt.edu.cn">📧 邮箱</a>
+            <a class="profile-link" href="https://scholar.google.com/citations?hl=en&user=kzbAzGEAAAAJ">Google Scholar</a>
+            <a class="profile-link" href="https://github.com/Winters123">GitHub</a>
+        </div>
     </div>
 </div>
 
-我是[国防科技大学计算机学院](https://english.nudt.edu.cn/)**副教授**，2021 年于国防科技大学获博士学位，2019–2020 年赴[英国伦敦玛丽女王大学](https://www.qmul.ac.uk/)联合培养（合作导师 [Gianni Antichi](https://gianniantichi.github.io/)）。
+我是[国防科技大学计算机学院](https://english.nudt.edu.cn/)**副教授、硕士生导师**，2021 年于国防科技大学获博士学位，2019–2020 年赴[英国伦敦玛丽女王大学](https://www.qmul.ac.uk/)联合培养（合作导师 [Gianni Antichi](https://gianniantichi.github.io/)），2026 年入选**湖南省芙蓉计划青年人才**。
 
-多年来，我大部分精力都投入在**构建能够为工业界与科研院所的合作伙伴解决真实问题的网络与系统**上。我相信，好的研究不仅要拓展知识的边界，更应当对现实世界产生切实的影响。
+多年来，我大部分精力都投入在**构建能够为工业界与科研院所的合作伙伴解决真实问题的网络与系统**上。我相信，好的研究不仅要拓展知识的边界，更应当对现实世界产生切实的影响——课题组开源的 [FastRMT](https://github.com/Winters123/FastRMT) 是首个开源的 FPGA 级 RMT 架构实现，已被 NSDI'22 论文 Menshen 等多个开源项目采用。
 
-**我始终欢迎自驱力强、对系统与网络怀有同样热情的同学加入。**如果你对 FPGA、网络系统感兴趣，享受用自己的设计去解决真实问题，欢迎随时联系我！可将简历或研究背景简介发送至我的邮箱。
+<div class="stats-bar">
+    <div class="stat-item"><div class="stat-number">18+</div><div class="stat-label">CCF 推荐会议/期刊论文</div></div>
+    <div class="stat-item"><div class="stat-number">10+</div><div class="stat-label">CCF-A 类论文</div></div>
+    <div class="stat-item"><div class="stat-number">7+</div><div class="stat-label">授权国家发明专利</div></div>
+    <div class="stat-item"><div class="stat-number">150万+</div><div class="stat-label">主持国家级项目经费</div></div>
+    <div class="stat-item"><div class="stat-number">4 届</div><div class="stat-label">国家 A 级赛事优秀指导教师</div></div>
+</div>
 
 ## 研究方向
 
@@ -35,13 +42,21 @@ permalink: /about/
 - **时间敏感网络（TSN）**：面向工业与车载应用的确定性网络
 - **面向领域的网络（DSN）**：面向特定应用领域（如 AI 训练网络）的定制化网络体系结构
 
-## 概览
+## 学生培养与教学
 
-- **论文**：在 CCF 推荐会议/期刊发表论文 18 余篇，其中 CCF-A 类 10 余篇
-- **专利**：授权国家发明专利 7 项以上
-- **开源**：FastRMT 作者——Menshen（NSDI'22）采用的 FPGA 级 RMT 开源实现
-- **教学**：出版教材 1 部；指导学员获 C4 网络技术挑战赛一等奖（2023–2026）
-- **获奖**：湖南省教学成果二等奖（2025）、未来网络技术创新大赛特等奖（2023）、湖南省芙蓉计划青年人才（2026）
+课题组在读博士、硕士研究生多人，研究方向覆盖网内计算、网内聚合、可编程报文解析等；与北京大学、盛科网络、华为、联想等团队保持紧密合作（共同项目、联合署名论文），相关技术已在网络安全芯片与网络监控系统中落地。近年来指导学员取得的主要成绩：
+
+- 指导学员获 **C4 网络技术挑战赛全国总决赛一等奖**（2023–2026，连续四年），本人连续四年获大赛**优秀指导教师**（国家 A 级赛事）
+- 指导学员获**第十九届全国大学生信息安全竞赛（作品赛）二等奖**（2026）
+- 指导学员获国家级竞赛**特等奖** 1 项、**一等奖/二等奖** 9 项
+- 出版《网络系统原理》（"十四五"重点规划教材），主讲《计算机网络》《网络系统原理》《路由与交换技术》
+- 获**湖南省教学成果二等奖**（2025）
+
+<div class="join-card">
+    <h3>加入我们</h3>
+    <p>如果你正在考虑读研，对 FPGA、可编程网络、确定性网络等方向感兴趣，欢迎报考我的研究生。无论你来自本校还是外校，只要自驱力强、乐于动手用设计解决真实问题，我都非常欢迎你与我联系。</p>
+    <p>请将<strong>简历（附成绩单）</strong>与你的<strong>兴趣方向</strong>发送至 <a href="mailto:yangxiangrui11@nudt.edu.cn">yangxiangrui11@nudt.edu.cn</a>，期待与你交流。</p>
+</div>
 
 ## 动态
 
@@ -94,7 +109,3 @@ permalink: /about/
     <div class="news-date">2025.06</div>
     <p>论文 "Magneto: Load-Balanced Key-Value Service" 被 <strong>IEEE TSC</strong>（CCF-A）录用。</p>
 </div>
-
----
-
-**联系方式**：yangxiangrui11[at]nudt.edu.cn

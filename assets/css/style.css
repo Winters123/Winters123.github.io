@@ -202,6 +202,131 @@ a:hover {
     text-decoration: none;
 }
 
+/* 两栏学术式头部 */
+.profile-grid {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    margin-bottom: 36px;
+}
+
+.profile-grid .profile-image {
+    flex-shrink: 0;
+    width: 170px;
+    height: 170px;
+    margin: 0;
+}
+
+.profile-grid .profile-info {
+    text-align: left;
+}
+
+.profile-grid .profile-info h1 {
+    margin-bottom: 8px;
+}
+
+.profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.profile-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: #eef2ff;
+    color: #4f46e5;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.profile-link:hover {
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+}
+
+/* 数字统计条 */
+.stats-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 26px 0 34px;
+}
+
+.stat-item {
+    flex: 1 1 130px;
+    background: white;
+    border: 1px solid #e8eaf3;
+    border-radius: 12px;
+    padding: 16px 10px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(26, 26, 46, 0.04);
+}
+
+.stat-number {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #4f46e5;
+    line-height: 1.2;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 6px;
+}
+
+/* 加入我们卡片 */
+.join-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 14px;
+    padding: 26px 30px;
+    margin: 14px 0 32px;
+    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.25);
+}
+
+.join-card h3 {
+    color: white;
+    margin-top: 0;
+    letter-spacing: 0.02em;
+}
+
+.join-card p {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.join-card p:last-child {
+    margin-bottom: 0;
+}
+
+.join-card a {
+    color: white;
+    font-weight: 700;
+}
+
+@media (max-width: 640px) {
+    .profile-grid {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .profile-grid .profile-info {
+        text-align: center;
+    }
+
+    .profile-links {
+        justify-content: center;
+    }
+}
+
 .news-item {
     background: white;
     padding: 16px 18px;
