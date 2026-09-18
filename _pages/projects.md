@@ -67,7 +67,7 @@ permalink: /projects/
         <span class="fund-role role-pi">主持</span>
         <span class="fund-title">电信网****关键技术（国家级项目）</span>
     </div>
-    <div class="fund-meta"><span class="fund-period">2023.12 – 2025.12</span><span class="fund-amount">150 万元</span></div>
+    <div class="fund-meta"><span class="fund-period">2026.06 – 2029.06</span><span class="fund-amount">150 万元</span></div>
 </div>
 
 <div class="fund-item">
