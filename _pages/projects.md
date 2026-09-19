@@ -11,7 +11,7 @@ permalink: /projects/
 <div class="proj-card">
     <div class="proj-tag-row">
         <span class="proj-tag tag-blue">开源系统</span>
-        <span class="proj-tag tag-green">FPGA 数据平面</span>
+        <span class="proj-tag tag-blue">FPGA 数据平面</span>
     </div>
     <h3><a href="https://github.com/Winters123/FastRMT">FastRMT</a></h3>
     <p class="proj-subtitle">首个开源的 FPGA 级 RMT 架构实现</p>
@@ -26,8 +26,8 @@ permalink: /projects/
 
 <div class="proj-card">
     <div class="proj-tag-row">
-        <span class="proj-tag tag-purple">芯片落地</span>
-        <span class="proj-tag tag-orange">确定性网络</span>
+        <span class="proj-tag tag-blue">芯片落地</span>
+        <span class="proj-tag tag-blue">确定性网络</span>
     </div>
     <h3>FlexTSN</h3>
     <p class="proj-subtitle">支持可编程调度的灵活 TSN 交换模型</p>
@@ -42,17 +42,22 @@ permalink: /projects/
 
 <div class="proj-card">
     <div class="proj-tag-row">
-        <span class="proj-tag tag-red">教学平台</span>
-        <span class="proj-tag tag-teal">多校采用</span>
+        <span class="proj-tag tag-blue">开源框架</span>
+        <span class="proj-tag tag-blue">教学平台</span>
     </div>
-    <h3><a href="http://www.xperis.com.cn/">FAST Framework</a></h3>
-    <p class="proj-subtitle">软硬件协同设计的网络加速教学平台（IWQoS 2019）</p>
-    <p>FAST（FPGA-Accelerated Switching and Testing）是面向网络系统科研与教学设计的软硬件协同框架，降低网络硬件系统的学习与开发门槛。</p>
+    <h3><a href="https://fast-switch.github.io/">FAST Framework</a></h3>
+    <p class="proj-subtitle">以 FPGA 为转发平面核心的可重构 SDN 交换架构（IWQoS 2019）</p>
+    <p>FAST（FPGA bAsed SDN swiTching）将报文处理流程拆解为多个独立处理阶段，为每个阶段建立标准模块库，开发者可自由组合处理模块、"离线重构"报文处理流水线，实现软硬件协同的网络加速，显著降低网络硬件系统的学习与开发门槛。</p>
+    <div class="proj-figures">
+        <img src="{{ '/assets/img/fast-software-arch.png' | relative_url }}" alt="FAST 软件架构">
+        <img src="{{ '/assets/img/fast-hardware-arch.png' | relative_url }}" alt="FAST 硬件架构">
+    </div>
     <div class="proj-metrics">
-        <div class="proj-metric"><strong>4+</strong><span>一流院校采用</span></div>
+        <div class="proj-metric"><strong>8 所</strong><span>一流院校采用</span></div>
+        <div class="proj-metric"><strong>离线重构</strong><span>模块库流水线</span></div>
         <div class="proj-metric"><strong>SIGCOMM / ToN</strong><span>成果支撑</span></div>
     </div>
-    <div class="proj-impact">推广至北邮、电子科大、东南大学、国防科大等院校，支撑香港理工、北大等团队发表顶会顶刊论文</div>
+    <div class="proj-impact">推广至北京邮电大学、电子科技大学、东南大学、北京大学等 8 所一流院校，支撑香港理工、北大等团队发表顶会顶刊论文</div>
 </div>
 
 </div>

@@ -563,6 +563,20 @@ a:hover {
     color: #666;
 }
 
+.proj-figures {
+    display: flex;
+    gap: 10px;
+    margin: 14px 0 4px;
+}
+
+.proj-figures img {
+    width: 50%;
+    min-width: 0;
+    border: 1px solid #e8eaf3;
+    border-radius: 8px;
+    background: #fff;
+}
+
 .proj-impact {
     border-left: 4px solid #667eea;
     background: #f6f8ff;
@@ -658,6 +672,14 @@ a:hover {
 
     .proj-card {
         padding: 20px;
+    }
+
+    .proj-figures {
+        flex-direction: column;
+    }
+
+    .proj-figures img {
+        width: 100%;
     }
 }
 
