@@ -603,6 +603,20 @@ a:hover {
     margin: 16px 0 4px;
 }
 
+.proj-bg {
+    background: #fafbfc;
+    border-left: 3px solid #a5b4d4;
+    border-radius: 0 8px 8px 0;
+    padding: 10px 14px;
+    font-size: 0.92rem;
+    color: #555;
+    margin: 12px 0;
+}
+
+.proj-bg strong {
+    color: #1a1a2e;
+}
+
 .proj-sub-block h4 {
     font-family: 'Source Han Serif SC', 'Noto Serif SC', 'Songti SC', 'STSong', SimSun, Georgia, serif;
     font-size: 1.02rem;

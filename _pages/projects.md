@@ -16,6 +16,7 @@ permalink: /projects/
     </div>
     <h3><a href="https://github.com/Winters123/FastRMT">FastRMT</a> · <a href="https://isolation.quest/">Menshen</a></h3>
     <p class="proj-subtitle">首个开源的 FPGA 级 RMT 架构实现与流水线隔离机制</p>
+    <div class="proj-bg"><strong>研究背景</strong>：RMT（可重构匹配-动作表）架构自 SIGCOMM 2013 提出以来长期只有闭源商用芯片实现，学术界缺少开放、可修改的 FPGA 级实现作为研究底座；同时，多租户共享可编程设备场景下的模块间隔离机制仍是空白。</div>
     <p>FastRMT 是首个开源的 FPGA 级 RMT（可重构匹配-动作表）架构实现，提供由 Parser、Key Extractor、Lookup Engine、Action Engine 组成的全可编程报文处理流水线，为可编程数据平面研究提供开放基础。</p>
     <div class="proj-figure">
         <img src="{{ '/assets/img/fastrmt-data-flow.png' | relative_url }}" alt="FastRMT 流水线数据流图">
@@ -41,16 +42,24 @@ permalink: /projects/
     <div class="proj-tag-row">
         <span class="proj-tag tag-blue">芯片落地</span>
         <span class="proj-tag tag-blue">确定性网络</span>
+        <span class="proj-tag tag-blue">开源项目</span>
     </div>
-    <h3>FlexTSN</h3>
-    <p class="proj-subtitle">支持可编程调度的灵活 TSN 交换模型</p>
-    <p>FlexTSN 致力于解决时间敏感网络中确定性调度与硬件开销之间的矛盾，提出 AIAO（Any-In-Any-Out）可编程调度原语，符合 IEEE 802.1Qbv 标准。</p>
+    <h3>FlexTSN · <a href="https://gitee.com/opentsn">OpenTSN</a></h3>
+    <p class="proj-subtitle">灵活的 TSN 交换实现模型，已融入 OpenTSN 开源项目</p>
+    <div class="proj-bg"><strong>研究背景</strong>：TSN 标准体系庞大且持续演进，但长期缺少一种面向 TSN 的通用交换实现模型，关键技术难以快速搭建原型并完成验证；同时国内 TSN 核心芯片长期依赖国外芯片或 IP，舰船、航空航天等高端装备的确定性组网亟需自主可控方案。</div>
+    <p>FlexTSN 基于模块化与功能松耦合思想，将 TSN 交换节点解耦为<strong>时间同步、输入调度、分组交换、输出调度、资源与状态管理</strong>五大功能模块，提出 AIAO（Any-In-Any-Out）可编程调度原语，符合 IEEE 802.1Qbv 标准，支持 TSN 交换机的快速重构与关键技术敏捷验证。</p>
+    <div class="proj-figures">
+        <img src="{{ '/assets/img/flextsn-node.png' | relative_url }}" alt="FlexTSN 交换节点功能模块">
+        <img src="{{ '/assets/img/fenglin-chip.png' | relative_url }}" alt="枫林一号 HX-DS09 TSN 芯片实物与测试板">
+    </div>
+    <div class="proj-figure-cap">左：FlexTSN 交换节点五大功能模块；右：基于 OpenTSN 研制的"枫林一号"HX-DS09 芯片实物与测试板</div>
+    <p>FlexTSN 后续融入 <a href="https://gitee.com/opentsn">OpenTSN</a>——全球首个 TSN 开源项目（2.0 → 4.0 持续演进，集成 TSNBuilder 流量规划与测试工具链），支撑发表 CCF ToN、《计算机研究与发展》等多篇学术论文。</p>
     <div class="proj-metrics">
         <div class="proj-metric"><strong>AIAO</strong><span>可编程调度原语</span></div>
-        <div class="proj-metric"><strong>高内存效率</strong><span>硬件友好设计</span></div>
-        <div class="proj-metric"><strong>802.1Qbv</strong><span>标准兼容</span></div>
+        <div class="proj-metric"><strong>5 大模块</strong><span>松耦合解耦</span></div>
+        <div class="proj-metric"><strong>0.46 W</strong><span>枫林一号芯片功耗</span></div>
     </div>
-    <div class="proj-impact">核心架构融入银河衡芯 TSN 交换芯片样片，支撑国产芯片自主可控</div>
+    <div class="proj-impact">核心架构融入银河衡芯"枫林一号"HX-DS09 国产 TSN 交换芯片（130 nm 流片，亚微秒级时钟同步精度），支撑国产芯片自主可控</div>
 </div>
 
 <div class="proj-card">
@@ -60,6 +69,7 @@ permalink: /projects/
     </div>
     <h3><a href="https://fast-switch.github.io/">FAST Framework</a></h3>
     <p class="proj-subtitle">以 FPGA 为转发平面核心的可重构 SDN 交换架构（IWQoS 2019）</p>
+    <div class="proj-bg"><strong>研究背景</strong>：网络硬件系统的教学与科研门槛高——NetFPGA 等平台代码与具体硬件紧耦合、模块复用率低、调试复杂，学生与研究者难以快速构建自定义交换系统，亟需平台无关、模块可重构的软硬件协同框架。</div>
     <p>FAST（FPGA bAsed SDN swiTching）将报文处理流程拆解为多个独立处理阶段，为每个阶段建立标准模块库，开发者可自由组合处理模块、"离线重构"报文处理流水线，实现软硬件协同的网络加速，显著降低网络硬件系统的学习与开发门槛。</p>
     <div class="proj-figures">
         <img src="{{ '/assets/img/fast-software-arch.png' | relative_url }}" alt="FAST 软件架构">
