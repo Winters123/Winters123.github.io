@@ -12,14 +12,27 @@ permalink: /projects/
     <div class="proj-tag-row">
         <span class="proj-tag tag-blue">开源系统</span>
         <span class="proj-tag tag-blue">FPGA 数据平面</span>
+        <span class="proj-tag tag-blue">NSDI 2022</span>
     </div>
-    <h3><a href="https://github.com/Winters123/FastRMT">FastRMT</a></h3>
-    <p class="proj-subtitle">首个开源的 FPGA 级 RMT 架构实现</p>
-    <p>FastRMT 是首个开源的 FPGA 级 RMT（可重构匹配-动作表）架构实现，提供全可编程报文处理流水线，为可编程数据平面研究提供开放基础。</p>
+    <h3><a href="https://github.com/Winters123/FastRMT">FastRMT</a> · <a href="https://isolation.quest/">Menshen</a></h3>
+    <p class="proj-subtitle">首个开源的 FPGA 级 RMT 架构实现与流水线隔离机制</p>
+    <p>FastRMT 是首个开源的 FPGA 级 RMT（可重构匹配-动作表）架构实现，提供由 Parser、Key Extractor、Lookup Engine、Action Engine 组成的全可编程报文处理流水线，为可编程数据平面研究提供开放基础。</p>
+    <div class="proj-figure">
+        <img src="{{ '/assets/img/fastrmt-data-flow.png' | relative_url }}" alt="FastRMT 流水线数据流图">
+        <div class="proj-figure-cap">FastRMT 多级流水线数据流：PHV 在各级间的提取、匹配与改写</div>
+    </div>
+    <div class="proj-sub-block">
+        <h4>Menshen：可编程流水线的模块间隔离（<a href="https://www.usenix.org/conference/nsdi22/presentation/wang-tao">NSDI 2022</a>）</h4>
+        <p>与纽约大学、伦敦玛丽女王大学合作提出。每个报文携带程序 ID（PID），基于 overlays 技术实现<strong>每报文粒度的程序切换</strong>（仅需 2 个时钟周期，不影响流水线吞吐）；通过 daisy chain 重配置路径实现<strong>无中断模块更新</strong>。原型覆盖 NetFPGA 交换机与 Corundum 智能网卡双平台，并完成 ASIC 综合验证。代码已开源：<a href="https://github.com/multitenancy-project/menshen">menshen</a> / <a href="https://github.com/multitenancy-project/menshen-compiler">menshen-compiler</a>。</p>
+        <div class="proj-figure">
+            <img src="{{ '/assets/img/menshen-daisy-chain.png' | relative_url }}" alt="Menshen 流水线与 daisy chain 重配置路径">
+            <div class="proj-figure-cap">Menshen：daisy chain 重配置路径实现无中断模块更新</div>
+        </div>
+    </div>
     <div class="proj-metrics">
         <div class="proj-metric"><strong>100 Gbps</strong><span>线速报文处理</span></div>
-        <div class="proj-metric"><strong>微秒级</strong><span>处理时延</span></div>
-        <div class="proj-metric"><strong>开源</strong><span>完整实现</span></div>
+        <div class="proj-metric"><strong>2 cycles</strong><span>每报文程序切换</span></div>
+        <div class="proj-metric"><strong>1 GHz / ~6%</strong><span>ASIC 时序 / 额外面积</span></div>
     </div>
     <div class="proj-impact">被 Xilinx OpenNIC、迈普通信网卡、星载交换芯片等核心产品采用</div>
 </div>

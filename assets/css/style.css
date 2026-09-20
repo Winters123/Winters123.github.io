@@ -577,6 +577,44 @@ a:hover {
     background: #fff;
 }
 
+.proj-figure {
+    margin: 14px 0 4px;
+}
+
+.proj-figure img {
+    width: 100%;
+    border: 1px solid #e8eaf3;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.proj-figure-cap {
+    text-align: center;
+    font-size: 0.82rem;
+    color: #888;
+    margin-top: 6px;
+}
+
+.proj-sub-block {
+    background: #f6f8ff;
+    border: 1px solid #e8eaf3;
+    border-radius: 12px;
+    padding: 16px 18px 14px;
+    margin: 16px 0 4px;
+}
+
+.proj-sub-block h4 {
+    font-family: 'Source Han Serif SC', 'Noto Serif SC', 'Songti SC', 'STSong', SimSun, Georgia, serif;
+    font-size: 1.02rem;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+}
+
+.proj-sub-block p {
+    font-size: 0.92rem;
+    margin-bottom: 10px;
+}
+
 .proj-impact {
     border-left: 4px solid #667eea;
     background: #f6f8ff;
