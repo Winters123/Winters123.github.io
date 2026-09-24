@@ -6,13 +6,15 @@ permalink: /cv/
 
 ## 杨翔瑞（Xiangrui Yang）
 
-**副教授**  
+**副教授 · 硕士生导师**  
 国防科技大学计算机学院  
 湖南·长沙
 
 **邮箱**：yangxiangrui11@nudt.edu.cn
 
-**Google Scholar**：[学术主页](https://scholar.google.com/citations?hl=en&user=kzbAzGEAAAAJ)
+**Google Scholar**：[学术主页](https://scholar.google.com/citations?hl=en&user=kzbAzGEAAAAJ)　|　**GitHub**：[Winters123](https://github.com/Winters123)
+
+2021 年于国防科技大学获博士学位（本硕博均科大），博士期间赴英国伦敦玛丽女王大学（QMUL）联合培养。主要从事**高性能网络与网络系统安全**研究，在 ACM SIGCOMM、USENIX NSDI 等国际顶级会议及 IEEE/ACM ToN 等权威期刊发表论文 30 余篇（CCF-A 类 10 余篇），授权国家发明专利 10 项，主持国家级、省部级科研项目多项，近五年项目总经费超过 1000 万元。多项成果实现产业落地：开源系统 FastRMT 被 Xilinx OpenNIC、迈普通信网卡、星载交换芯片等核心产品采用，FlexTSN 交换模型融入银河衡芯国产 TSN 芯片。2026 年入选**湖南省芙蓉计划青年人才**。
 
 ---
 
@@ -28,10 +30,16 @@ permalink: /cv/
 
 ## 研究方向
 
-- 网络与系统安全（网络流量分析、FPGA/CPU 异构高性能网络处理）
-- 在网计算（面向分布式 AI 训练与推理系统）
-- 可编程数据平面
-- 时间敏感网络（TSN）
+- **网络与系统安全**：智能化网络流量分析、FPGA/CPU 异构高性能网络处理
+- **在网计算**：面向分布式 AI 训练与推理系统的网内加速
+- **可编程数据平面**：高速可编程网络系统、基于 FPGA 的网内处理
+- **时间敏感网络（TSN）**：确定性交换模型与国产 TSN 芯片
+
+## 代表性系统与开源成果
+
+- **[FastRMT](https://github.com/Winters123/FastRMT)**：首个开源的 FPGA 级 RMT（可重构匹配-动作表）架构实现，已被 Xilinx OpenNIC、迈普通信网卡、星载交换芯片等核心产品采用；支撑 [Menshen](https://isolation.quest/)（NSDI 2022，与纽约大学、QMUL 合作）的可编程流水线模块间隔离研究
+- **FlexTSN → [OpenTSN](https://gitee.com/opentsn)**：灵活的 TSN 交换实现模型，后续融入全球首个 TSN 开源项目 OpenTSN，核心架构融入银河衡芯"枫林一号"HX-DS09 国产 TSN 交换芯片（130 nm 流片，功耗 < 0.5 W），支撑国产芯片自主可控
+- **[FAST](https://fast-switch.github.io/)**：以 FPGA 为转发平面核心的可重构 SDN 交换教学科研平台，推广至北京邮电大学、电子科技大学、东南大学、北京大学等 8 所一流院校，支撑香港理工大学、北京大学等团队发表 SIGCOMM、IEEE/ACM ToN 等顶会顶刊论文
 
 ## 代表性论文
 
@@ -44,6 +52,8 @@ permalink: /cv/
 7. **Isolation Mechanisms for High-Speed Packet-Processing Pipelines** - USENIX NSDI, 2022
 8. **FastRMT: A High-Speed Data Plane Programmable System** - 《计算机研究与发展》, 2024
 9. **Making QUIC Quicker with NIC Offload** - ACM SIGCOMM EPIQ, 2020
+
+完整列表见 [论文](/publications/) 页面。
 
 ## 科研项目（部分）
 
@@ -61,13 +71,15 @@ permalink: /cv/
 - 与**中关村实验室**等高水平国家实验室保持长期稳定合作，可为研究生提供联合培养、实习锻炼与就业推荐机会
 - 与北京大学、盛科网络、百度、华为、联想等高校和企业保持紧密合作（共同项目、联合署名论文），相关技术已在网络安全芯片与网络安全监控等实际系统中落地
 
-## 获奖与荣誉
+## 教学与人才培养
 
-- 指导学员获 **C4 网络技术挑战赛全国总决赛一等奖**（2023–2026）
-- **C4 网络技术挑战赛优秀指导教师**（国家A级赛事，2023–2026，连续四年）
-- 指导学员获 **第十九届全国大学生信息安全竞赛（作品赛）二等奖**（2026）
-- **湖南省教学成果二等奖**（2025）
-- 指导学员获 **未来网络技术创新大赛特等奖**（2023）
+- 主讲《计算机网络》《网络系统原理》《路由与交换技术》等核心课程，出版教育部重点规划教材《下一代互联网技术 IPv6》
+- 获**湖南省教学成果二等奖**、学校教学成果一等奖
+- 现有在读硕士、博士研究生 8 人，组内以老带新氛围浓厚，每位学生均可得到充分指导
+- 指导学员获国家级竞赛**特等奖** 1 项、**一等奖/二等奖** 9 项，主要包括：
+  - **C4 网络技术挑战赛全国总决赛一等奖**（2023–2026，连续四年），本人连续四年获大赛**优秀指导教师**（国家 A 级赛事，[2026 年学校报道](https://www.nudt.edu.cn/xwgg/xydt/5bfa736b3c0348ad9659a1f74c09093e.htm)）
+  - **第十九届全国大学生信息安全竞赛（作品赛）二等奖**（2026）
+  - **未来网络技术创新大赛特等奖**（2023）
 
 ## 人才计划
 
