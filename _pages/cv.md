@@ -92,6 +92,7 @@ permalink: /cv/
 
 ## 学术服务与报告
 
+- 作为工作人员参加 **CCF 秀湖会议第三十九期**"超大规模智算集群网络技术——挑战与机遇"，并作报告《可编程数据平面与在网计算——以 FastRMT 项目为例》（2026.04，苏州，[会议官网](https://bls.ccf.org.cn/)）
 - 受邀在 CCF 教育论坛作报告《基于可编程数据平面的网络系统与教学科研实践》（2026，[论坛主页](https://ccf.org.cn/cnetcned2026/speaker_d_2123)）
 - 担任 Transactions on Computers、Transactions on Networking、Computer Networks 等期刊审稿人
 - 研究成果被 Google QUIC 负责人 Ian Swett 在 SIGCOMM 2020 EPIQ [主题报告](https://conferences.sigcomm.org/sigcomm/2020/files/slides/epiq/0%20QUIC%20and%20HTTP_3%20CPU%20Performance.pdf)中引用致谢
