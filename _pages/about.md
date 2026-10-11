@@ -46,13 +46,39 @@ hide_title: true
 
 ## 学生培养与教学
 
-课题组现有在读硕士、博士研究生8人，均能得到我的充分指导，组内大家氛围和谐、以老带新的氛围浓厚（人人为我，我为人人）；与**北京大学、盛科网络、百度、华为、联想**等高校和企业保持紧密合作（共同项目、联合署名论文），相关技术已在网络安全芯片与网络安全监控实际系统中落地。与**中关村实验室**等高水平国家实验室保持密切稳定的合作，可为研究生提供联合培养、实习锻炼与就业推荐机会。课题组5年内科研项目总经费超过1000万元，可为大家的科研训练与学术发展提供充足支持。此外，作为负责人设计开发的FAST软硬件协同网络加速教学平台已推广至北京邮电大学、电子科技大学、东南大学、北京大学等一流院校，支撑香港理工大学、北京大学等团队发表SIGCOMM、IEEE/ACM ToN等顶会顶刊论文。另外，近年来指导**本科学员**取得的主要成绩：
+课题组现有在读硕士、博士研究生9人，均能得到我的充分指导，组内大家氛围和谐、以老带新的氛围浓厚（人人为我，我为人人）；与**北京大学、盛科网络、百度、华为、联想**等高校和企业保持紧密合作（共同项目、联合署名论文），相关技术已在网络安全芯片与网络安全监控实际系统中落地。与**中关村实验室**等高水平国家实验室保持密切稳定的合作，可为研究生提供联合培养、实习锻炼与就业推荐机会。课题组5年内科研项目总经费超过1000万元，可为大家的科研训练与学术发展提供充足支持。此外，作为负责人设计开发的FAST软硬件协同网络加速教学平台已推广至北京邮电大学、电子科技大学、东南大学、北京大学等一流院校，支撑香港理工大学、北京大学等团队发表SIGCOMM、IEEE/ACM ToN等顶会顶刊论文。另外，近年来指导**本科学员**取得的主要成绩：
 
 - 指导学员获 **C4 网络技术挑战赛全国总决赛一等奖**（2023–2026，连续四年），本人连续四年获大赛**优秀指导教师**（国家 A 级赛事）
 - 指导学员获**第十九届全国大学生信息安全竞赛（作品赛）二等奖**（2026）
 - 指导学员获国家级竞赛**特等奖** 1 项、**一等奖/二等奖** 9 项
 - 出版教育部重点规划教材《下一代互联网技术IPv6》，主讲《计算机网络》《网络系统原理》《路由与交换技术》等核心课程
 - 获湖南省教学成果二等奖、学校教学成果一等奖等奖励
+
+### 课题组成员
+
+<div class="member-grid">
+    <div class="member-group">
+        <h4>在读博士生 · 3 人</h4>
+        <div class="member-sub">2025 级</div>
+        <div class="member-names"><span class="member-name">吕明泰</span></div>
+        <div class="member-sub">2026 级</div>
+        <div class="member-names"><span class="member-name">高源航</span><span class="member-name">陈远风</span></div>
+    </div>
+    <div class="member-group">
+        <h4>在读硕士生 · 6 人</h4>
+        <div class="member-sub">2025 级</div>
+        <div class="member-names"><span class="member-name">刘承鑫</span><span class="member-name">师慕风</span><span class="member-name">李亦婷</span><span class="member-name">简智康</span></div>
+        <div class="member-sub">2026 级</div>
+        <div class="member-names"><span class="member-name">陈泓嘉</span><span class="member-name">汪宇</span></div>
+    </div>
+    <div class="member-group">
+        <h4>工程师 / 科研助理</h4>
+        <div class="member-names"><span class="member-name">唐石画</span></div>
+        <h4 class="member-gap">已毕业学生</h4>
+        <div class="member-sub">2022 级</div>
+        <div class="member-names"><span class="member-name member-alumni">程雪谭</span><span class="member-name member-alumni">梁潇龙</span></div>
+    </div>
+</div>
 
 <div class="join-card">
     <h3>加入我们</h3>
