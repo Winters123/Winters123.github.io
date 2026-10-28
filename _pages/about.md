@@ -91,6 +91,11 @@ hide_title: true
 
 <div class="news-item">
     <div class="news-date">2026.10</div>
+    <p>受邀作为嘉宾参加 <strong>CCF YOCSEF 上海 CLUB 活动</strong>"当'许愿式编程'成为现实：系统类教学何去何从？"，与复旦大学、西安电子科技大学、华为等单位的专家共同探讨 Agentic AI 时代系统类教学的坚守与变革（2026.10.31，上海）。</p>
+</div>
+
+<div class="news-item">
+    <div class="news-date">2026.10</div>
     <p>教学案例《基于 FAST 可编程网络实验平台的 DNS 协议分析与劫持实践》获 <strong>CPEC 2026（2026 计算机实践教育大会）优秀案例一等奖</strong>及<strong>最佳报告奖</strong>（上海，<a href="https://lab.cs.tsinghua.edu.cn/expcase/pre_result_ui/">案例评选公告</a>）。</p>
 </div>
 
