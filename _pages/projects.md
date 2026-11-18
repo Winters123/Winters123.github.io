@@ -85,86 +85,25 @@ permalink: /projects/
 
 </div>
 
-## 承担科研项目（部分）
+## 科研项目
 
-<div class="fund-list">
+<div class="proj-grid">
 
-
-<div class="fund-item">
-    <div class="fund-main">
-        <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">电信网****关键技术（国家级项目）</span>
+<div class="proj-card">
+    <div class="proj-tag-row">
+        <span class="proj-tag tag-blue">国家级项目</span>
+        <span class="proj-tag tag-blue">省部级项目</span>
+        <span class="proj-tag tag-blue">企业合作</span>
     </div>
-    <div class="fund-meta"><span class="fund-period">2026.06 – 2029.06</span><span class="fund-amount">150 万元</span></div>
-</div>
-
-<div class="fund-item">
-    <div class="fund-main">
-        <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">湖南省芙蓉计划青年人才（省部级）</span>
+    <h3>项目概况</h3>
+    <p>主持及参与国家级、省部级与横向科研项目<strong>10 余项</strong>，近五年项目总经费超过 <strong>1000 万元</strong>。研究内容覆盖可编程网络与可编程数据平面、DPU 软硬协同加速、算力网络与在网计算、时间敏感网络以及网络系统安全等方向。</p>
+    <p>项目类型包括国家级科研项目、省部级人才计划与重点研发课题、全国重点实验室基金、省自然科学基金以及企业横向合作，多数成果已在国产芯片、网卡、交换设备与教学平台中落地。</p>
+    <div class="proj-metrics">
+        <div class="proj-metric"><strong>10 余项</strong><span>主持 / 参与项目</span></div>
+        <div class="proj-metric"><strong>1000 万+</strong><span>近五年总经费</span></div>
+        <div class="proj-metric"><strong>4 类</strong><span>项目来源层次</span></div>
     </div>
-    <div class="fund-meta"><span class="fund-period">2026.06 – 2029.06</span><span class="fund-amount">30 万元</span></div>
-</div>
-
-<div class="fund-item">
-    <div class="fund-main">
-        <span class="fund-role role-pi">子课题负责人</span>
-        <span class="fund-title">电信*****技术（横向项目）</span>
-    </div>
-    <div class="fund-meta"><span class="fund-period">2024.10 – 2026.09</span><span class="fund-amount">200 / 480 万元</span></div>
-</div>
-
-
-<div class="fund-item">
-    <div class="fund-main">
-        <span class="fund-role role-sub">子课题负责人</span>
-        <span class="fund-title">新型韧性***信息通信系统与演示验证（省部级）</span>
-    </div>
-    <div class="fund-meta"><span class="fund-period">2022.11 – 2024.05</span><span class="fund-amount">120 / 360 万元</span></div>
-</div>
-
-
-
-<div class="fund-item">
-    <div class="fund-main">
-        <span class="fund-role role-sub">课题负责人</span>
-        <span class="fund-title">数据中心**网络处理加速技术（省部级）</span>
-    </div>
-    <div class="fund-meta"><span class="fund-period">2023.08 – 2026.05</span><span class="fund-amount">75 / 300 万元</span></div>
-</div>
-
-
-
-<div class="fund-item">
-    <div class="fund-main">
-        <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">国防科大第三批高层次人才青年英才</span>
-    </div>
-    <div class="fund-meta"><span class="fund-period">2022.06 – 2026.06</span><span class="fund-amount">40 万元</span></div>
-</div>
-
-<div class="fund-item">
-    <div class="fund-main">
-        <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">面向DPU的软硬协同加速机理研究（全国重点实验室基金）</span>
-    </div>
-    <div class="fund-meta"><span class="fund-period">2022.01 – 2023.12</span><span class="fund-amount">30 万元</span></div>
-</div>
-
-<div class="fund-item">
-    <div class="fund-main">
-        <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">弹性智能网络多路径并行传输关键技术（科工局重点实验室基金）</span>
-    </div>
-    <div class="fund-meta"><span class="fund-period">2023.01 – 2024.12</span><span class="fund-amount">20 万元</span></div>
-</div>
-
-<div class="fund-item">
-    <div class="fund-main">
-        <span class="fund-role role-pi">主持</span>
-        <span class="fund-title">算网融合的 DPU 异构协同处理模型及机理研究（省自然科学基金）</span>
-    </div>
-    <div class="fund-meta"><span class="fund-period">2023.01 – 2025.12</span><span class="fund-amount">5 万元</span></div>
+    <div class="proj-impact">科研经费充足，可为研究生的科研训练、实验平台建设与学术交流提供稳定支持</div>
 </div>
 
 </div>

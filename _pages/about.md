@@ -121,7 +121,7 @@ hide_title: true
 
 <div class="news-item">
     <div class="news-date">2026.08</div>
-    <p>作为负责人新立项<strong>国家级科研项目</strong>（可编程网络方向，150 万元，2026.06–2029.06）。</p>
+    <p>作为负责人新立项<strong>国家级科研项目</strong>（可编程网络方向，2026.06–2029.06）。</p>
 </div>
 
 <div class="news-item">
