@@ -4,106 +4,75 @@ title: 项目
 permalink: /projects/
 ---
 
-## 代表性系统
+围绕**高性能网络与网络系统安全**，课题组在可编程数据平面、时间敏感网络、在网计算与网络教学平台等方向持续攻关，形成了从开源系统、国产芯片到教学平台的完整成果链条。以下按典型项目分节介绍。
 
-<div class="proj-grid">
+## FastRMT / Menshen — 高速可编程数据平面与流水线隔离
 
-<div class="proj-card">
-    <div class="proj-tag-row">
-        <span class="proj-tag tag-blue">开源系统</span>
-        <span class="proj-tag tag-blue">FPGA 数据平面</span>
-        <span class="proj-tag tag-blue">NSDI 2022</span>
-    </div>
-    <h3><a href="https://github.com/Winters123/FastRMT">FastRMT</a> · <a href="https://isolation.quest/">Menshen</a></h3>
-    <p class="proj-subtitle">首个开源的 FPGA 级 RMT 架构实现与流水线隔离机制</p>
-    <div class="proj-bg"><strong>研究背景</strong>：RMT（可重构匹配-动作表）架构自 SIGCOMM 2013 提出以来长期只有闭源商用芯片实现，学术界缺少开放、可修改的 FPGA 级实现作为研究底座；同时，多租户共享可编程设备场景下的模块间隔离机制仍是空白。</div>
-    <p>FastRMT 是首个开源的 FPGA 级 RMT（可重构匹配-动作表）架构实现，提供由 Parser、Key Extractor、Lookup Engine、Action Engine 组成的全可编程报文处理流水线，为可编程数据平面研究提供开放基础。</p>
-    <div class="proj-figure">
-        <img src="{{ '/assets/img/fastrmt-data-flow.png' | relative_url }}" alt="FastRMT 流水线数据流图">
-        <div class="proj-figure-cap">FastRMT 多级流水线数据流：PHV 在各级间的提取、匹配与改写</div>
-    </div>
-    <div class="proj-sub-block">
-        <h4>Menshen：可编程流水线的模块间隔离（<a href="https://www.usenix.org/conference/nsdi22/presentation/wang-tao">NSDI 2022</a>）</h4>
-        <p>与纽约大学、伦敦玛丽女王大学合作提出。每个报文携带程序 ID（PID），基于 overlays 技术实现<strong>每报文粒度的程序切换</strong>（仅需 2 个时钟周期，不影响流水线吞吐）；通过 daisy chain 重配置路径实现<strong>无中断模块更新</strong>。原型覆盖 NetFPGA 交换机与 Corundum 智能网卡双平台，并完成 ASIC 综合验证。代码已开源：<a href="https://github.com/multitenancy-project/menshen">menshen</a> / <a href="https://github.com/multitenancy-project/menshen-compiler">menshen-compiler</a>。</p>
-        <div class="proj-figure">
-            <img src="{{ '/assets/img/menshen-daisy-chain.png' | relative_url }}" alt="Menshen 流水线与 daisy chain 重配置路径">
-            <div class="proj-figure-cap">Menshen：daisy chain 重配置路径实现无中断模块更新</div>
-        </div>
-    </div>
-    <div class="proj-metrics">
-        <div class="proj-metric"><strong>100 Gbps</strong><span>线速报文处理</span></div>
-        <div class="proj-metric"><strong>2 cycles</strong><span>每报文程序切换</span></div>
-        <div class="proj-metric"><strong>1 GHz / ~6%</strong><span>ASIC 时序 / 额外面积</span></div>
-    </div>
-    <div class="proj-impact">被 Xilinx OpenNIC、迈普通信网卡、星载交换芯片等核心产品采用</div>
+<p class="proj-subtitle">开源 FPGA 级 RMT 架构 · NSDI 2022 隔离研究支撑</p>
+
+**研究背景**：传统 FPGA 网络开发门槛高、周期长，业界长期缺少开放的高速可编程数据平面参考实现，微架构创新难以快速验证。FastRMT 基于 RMT（可重构匹配-动作表）模型，在 FPGA 上以模块化方式实现解析、匹配、动作各级流水线，让研究者像搭积木一样定制转发逻辑。
+
+<div class="proj-figures">
+    <img src="{{ '/assets/img/fastrmt-data-flow.png' | relative_url }}" alt="FastRMT 数据流">
+    <img src="{{ '/assets/img/menshen-daisy-chain.png' | relative_url }}" alt="Menshen Daisy Chain 隔离机制">
 </div>
+<p class="proj-figure-cap">FastRMT 数据流：可配置模块串联成处理流水线 ｜ Menshen 隔离机制：过滤器 + 门控的 Daisy Chain</p>
 
-<div class="proj-card">
-    <div class="proj-tag-row">
-        <span class="proj-tag tag-blue">芯片落地</span>
-        <span class="proj-tag tag-blue">确定性网络</span>
-        <span class="proj-tag tag-blue">开源项目</span>
-    </div>
-    <h3>FlexTSN · <a href="https://gitee.com/opentsn">OpenTSN</a></h3>
-    <p class="proj-subtitle">灵活的 TSN 交换实现模型，已融入 OpenTSN 开源项目</p>
-    <div class="proj-bg"><strong>研究背景</strong>：TSN 标准体系庞大且持续演进，但长期缺少一种面向 TSN 的通用交换实现模型，关键技术难以快速搭建原型并完成验证；同时国内 TSN 核心芯片长期依赖国外芯片或 IP，舰船、航空航天等高端装备的确定性组网亟需自主可控方案。</div>
-    <p>FlexTSN 基于模块化与功能松耦合思想，将 TSN 交换节点解耦为<strong>时间同步、输入调度、分组交换、输出调度、资源与状态管理</strong>五大功能模块，提出 AIAO（Any-In-Any-Out）可编程调度原语，符合 IEEE 802.1Qbv 标准，支持 TSN 交换机的快速重构与关键技术敏捷验证。</p>
-    <div class="proj-figures">
-        <img src="{{ '/assets/img/flextsn-node.png' | relative_url }}" alt="FlexTSN 交换节点功能模块">
-        <img src="{{ '/assets/img/fenglin-chip.png' | relative_url }}" alt="枫林一号 HX-DS09 TSN 芯片实物与测试板">
-    </div>
-    <div class="proj-figure-cap">左：FlexTSN 交换节点五大功能模块；右：基于 OpenTSN 研制的"枫林一号"HX-DS09 芯片实物与测试板</div>
-    <p>FlexTSN 后续融入 <a href="https://gitee.com/opentsn">OpenTSN</a>——全球首个 TSN 开源项目（2.0 → 4.0 持续演进，集成 TSNBuilder 流量规划与测试工具链），支撑发表 CCF ToN、《计算机研究与发展》等多篇学术论文。</p>
-    <div class="proj-metrics">
-        <div class="proj-metric"><strong>AIAO</strong><span>可编程调度原语</span></div>
-        <div class="proj-metric"><strong>5 大模块</strong><span>松耦合解耦</span></div>
-        <div class="proj-metric"><strong>0.46 W</strong><span>枫林一号芯片功耗</span></div>
-    </div>
-    <div class="proj-impact">核心架构融入银河衡芯"枫林一号"HX-DS09 国产 TSN 交换芯片（130 nm 流片，亚微秒级时钟同步精度），支撑国产芯片自主可控</div>
-</div>
+### Menshen：流水线模块间隔离（NSDI 2022）
 
-<div class="proj-card">
-    <div class="proj-tag-row">
-        <span class="proj-tag tag-blue">开源框架</span>
-        <span class="proj-tag tag-blue">教学平台</span>
-    </div>
-    <h3><a href="https://fast-switch.github.io/">FAST Framework</a></h3>
-    <p class="proj-subtitle">以 FPGA 为转发平面核心的可重构 SDN 交换架构（IWQoS 2019）</p>
-    <div class="proj-bg"><strong>研究背景</strong>：网络硬件系统的教学与科研门槛高——NetFPGA 等平台代码与具体硬件紧耦合、模块复用率低、调试复杂，学生与研究者难以快速构建自定义交换系统，亟需平台无关、模块可重构的软硬件协同框架。</div>
-    <p>FAST（FPGA bAsed SDN swiTching）将报文处理流程拆解为多个独立处理阶段，为每个阶段建立标准模块库，开发者可自由组合处理模块、"离线重构"报文处理流水线，实现软硬件协同的网络加速，显著降低网络硬件系统的学习与开发门槛。</p>
-    <div class="proj-figures">
-        <img src="{{ '/assets/img/fast-software-arch.png' | relative_url }}" alt="FAST 软件架构">
-        <img src="{{ '/assets/img/fast-hardware-arch.png' | relative_url }}" alt="FAST 硬件架构">
-    </div>
-    <div class="proj-metrics">
-        <div class="proj-metric"><strong>8 所</strong><span>一流院校采用</span></div>
-        <div class="proj-metric"><strong>离线重构</strong><span>模块库流水线</span></div>
-        <div class="proj-metric"><strong>SIGCOMM / ToN</strong><span>成果支撑</span></div>
-    </div>
-    <div class="proj-impact">推广至北京邮电大学、电子科技大学、东南大学、北京大学等 8 所一流院校，支撑香港理工、北大等团队发表顶会顶刊论文</div>
-</div>
+FastRMT 的可编程流水线支撑了与纽约大学、QMUL 合作的 <a href="https://www.usenix.org/conference/nsdi22/presentation/wang-tao">Menshen</a>（NSDI 2022）研究：针对 PISA 流水线中一个模块的错误会波及整条流水线的问题，提出模块间轻量隔离机制——在模块间插入由硬件自动生成的隔离处理器（过滤器 + 门控构成 Daisy Chain），以少量额外硬件资源为代价，保证各模块互不干扰。
 
+<div class="proj-figure">
+    <img src="{{ '/assets/img/menshen-pisa-isolation.png' | relative_url }}" alt="Menshen PISA 流水线隔离架构">
 </div>
+<p class="proj-figure-cap">Menshen 在 PISA 流水线各级间插入隔离处理器（出处：NSDI 2022 论文）</p>
+
+FastRMT 支持 100 Gbps 线速处理，单级匹配延迟约 20 ns，提供 200 余个可配置模块，目前已被 3 类产品采用。
+
+**产业落地**：已被 Xilinx OpenNIC 开源项目、迈普通信网卡、星载交换芯片等核心产品采用，是课题组产业转化最成功的开源系统。项目主页：<a href="http://www.xperis.com.cn/">xperis.com.cn</a> · 代码：<a href="https://github.com/Winters123/FastRMT">GitHub</a>
+
+## FlexTSN / OpenTSN — 时间敏感网络与国产 TSN 芯片
+
+<p class="proj-subtitle">灵活 TSN 交换模型 · 融入全球首个 TSN 开源项目与国产芯片</p>
+
+**研究背景**：工业互联网、车载网络等场景要求微秒级确定性时延，而传统以太网"尽力而为"的转发无法满足。TSN（时间敏感网络）通过时间感知整形、门控调度等机制提供确定性保障，但交换芯片长期依赖进口。FlexTSN 提出软硬件协同的灵活 TSN 交换实现模型，让时间敏感调度逻辑可裁剪、可移植。
+
+<div class="proj-figure">
+    <img src="{{ '/assets/img/flextsn-node.png' | relative_url }}" alt="FlexTSN 节点架构">
+</div>
+<p class="proj-figure-cap">FlexTSN 节点架构：软硬件协同的 TSN 交换实现模型</p>
+
+### OpenTSN 开源项目与国产芯片落地
+
+FlexTSN 后续融入 <a href="https://gitee.com/opentsn">OpenTSN</a>——全球首个 TSN 开源项目，围绕其灵活交换模型发表多篇论文（FooDog，IEEE/ACM ToN 2025；Megabits Down to Kilobits，DAC 2025；Hebo，IWQoS 2024 等）。核心架构进一步融入银河衡芯"枫林一号"HX-DS09 TSN 交换芯片，实现从开源模型到国产芯片的落地。
+
+<div class="proj-figure">
+    <img src="{{ '/assets/img/fenglin-chip.png' | relative_url }}" alt="枫林一号 TSN 交换芯片">
+</div>
+<p class="proj-figure-cap">银河衡芯"枫林一号"HX-DS09 TSN 交换芯片（130 nm 流片）</p>
+
+FlexTSN 于 2019 年开源发布，相关架构采用 130 nm 工艺流片，交换功耗低于 0.5 W。
+
+**芯片落地**：支撑银河衡芯国产 TSN 交换芯片自主可控，相关成果获湖南省教学成果二等奖，并持续服务确定性网络方向的科研与教学。
+
+## FAST — 软硬件协同网络加速教学科研平台
+
+<p class="proj-subtitle">FPGA 转发平面 + CPU 控制平面 · 推广至 8 所高校</p>
+
+**研究背景**：网络系统教学长期面临"理论抽象、实验黑盒"的困境：学生只能配置现成设备，看不到也改不了转发逻辑。FAST 以 FPGA 为转发平面核心、CPU 运行控制平面，把交换机内部流水线完整开放给教学与科研，让学生从"用网络"走向"造网络"。
+
+<div class="proj-figures">
+    <img src="{{ '/assets/img/fast-software-arch.png' | relative_url }}" alt="FAST 软件架构">
+    <img src="{{ '/assets/img/fast-hardware-arch.png' | relative_url }}" alt="FAST 硬件架构">
+</div>
+<p class="proj-figure-cap">FAST 软件架构：CPU 上的控制平面与协议栈 ｜ FAST 硬件架构：FPGA 上的可重构转发流水线</p>
+
+作为负责人设计开发的 FAST（FPGA Accelerated Switching plaTform）可重构 SDN 交换平台，已推广至北京邮电大学、电子科技大学、东南大学、北京大学等 8 所高校，支撑计算机网络、路由与交换技术等 4 门以上课程教学，并支撑外部团队发表 2 篇顶会顶刊论文（SIGCOMM、IEEE/ACM ToN）。
+
+**教学影响**：支撑港理工、北大等团队发表 SIGCOMM、IEEE/ACM ToN 等顶会顶刊论文；基于 FAST 的 DNS 劫持与防护教学案例获 CPEC 2026 优秀案例一等奖。项目主页：<a href="https://fast-switch.github.io/">fast-switch.github.io</a>
 
 ## 科研项目
 
-<div class="proj-grid">
+主持及参与国家级、省部级与横向科研项目<strong>10 余项</strong>，近五年项目总经费超过 <strong>1000 万元</strong>。研究内容覆盖可编程网络与可编程数据平面、DPU 软硬协同加速、算力网络与在网计算、时间敏感网络以及网络系统安全等方向。
 
-<div class="proj-card">
-    <div class="proj-tag-row">
-        <span class="proj-tag tag-blue">国家级项目</span>
-        <span class="proj-tag tag-blue">省部级项目</span>
-        <span class="proj-tag tag-blue">企业合作</span>
-    </div>
-    <h3>项目概况</h3>
-    <p>主持及参与国家级、省部级与横向科研项目<strong>10 余项</strong>，近五年项目总经费超过 <strong>1000 万元</strong>。研究内容覆盖可编程网络与可编程数据平面、DPU 软硬协同加速、算力网络与在网计算、时间敏感网络以及网络系统安全等方向。</p>
-    <p>项目类型包括国家级科研项目、省部级人才计划与重点研发课题、全国重点实验室基金、省自然科学基金以及企业横向合作，多数成果已在国产芯片、网卡、交换设备与教学平台中落地。</p>
-    <div class="proj-metrics">
-        <div class="proj-metric"><strong>10 余项</strong><span>主持 / 参与项目</span></div>
-        <div class="proj-metric"><strong>1000 万+</strong><span>近五年总经费</span></div>
-        <div class="proj-metric"><strong>4 类</strong><span>项目来源层次</span></div>
-    </div>
-    <div class="proj-impact">科研经费充足，可为研究生的科研训练、实验平台建设与学术交流提供稳定支持</div>
-</div>
-
-</div>
+项目类型包括国家级科研项目、省部级人才计划与重点研发课题、全国重点实验室基金、省自然科学基金以及企业横向合作，多数成果已在国产芯片、网卡、交换设备与教学平台中落地。科研经费充足，可为研究生的科研训练、实验平台建设与学术交流提供稳定支持。
