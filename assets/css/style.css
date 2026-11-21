@@ -631,16 +631,20 @@ a:hover {
 }
 
 .proj-subtitle {
-    color: var(--accent);
-    font-weight: 600;
+    color: var(--muted);
+    font-weight: 400;
+    font-size: 0.95rem;
     margin-bottom: 12px;
 }
 
 .proj-metrics {
     display: flex;
     flex-wrap: wrap;
-    gap: 28px;
+    gap: 32px;
     margin: 18px 0;
+    padding: 14px 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
 }
 
 .proj-metric {
@@ -654,13 +658,14 @@ a:hover {
 
 .proj-metric strong {
     display: block;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
+    font-weight: 700;
     color: var(--ink);
     margin-bottom: 2px;
 }
 
 .proj-metric span {
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     color: var(--muted);
 }
 
@@ -732,10 +737,10 @@ a:hover {
 }
 
 .proj-impact {
-    border-left: 3px solid var(--accent);
-    background: var(--bg-soft);
+    border-left: 3px solid var(--line);
+    background: none;
     border-radius: 0;
-    padding: 12px 14px;
+    padding: 10px 14px;
     color: var(--text);
     font-size: 0.95rem;
 }
